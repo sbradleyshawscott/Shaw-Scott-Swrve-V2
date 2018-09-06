@@ -1,0 +1,25 @@
+PODS:
+  - SwrveConversationSDK (5.2.2):
+    - SwrveSDKCommon (= 5.2.2)
+  - SwrveSDK (5.2.2):
+    - SwrveConversationSDK (= 5.2.2)
+    - SwrveSDKCommon (= 5.2.2)
+  - SwrveSDKCommon (5.2.2)
+
+DEPENDENCIES:
+  - SwrveSDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwrveConversationSDK
+    - SwrveSDK
+    - SwrveSDKCommon
+
+SPEC CHECKSUMS:
+  SwrveConversationSDK: ce415b49a4969d59d6000b98fb47a94aef8c8737
+  SwrveSDK: 8876f1228d8cb5f26ba7b262fea7b96e97fbb58b
+  SwrveSDKCommon: 3cf2de11b4870c225396dda2af115bcca8c57b33
+
+PODFILE CHECKSUM: 08afd5902a7d09f13d95476cb0c548f88941fd18
+
+COCOAPODS: 1.5.3

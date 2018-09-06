@@ -1,0 +1,1668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001F46C83EDA9F21034FADC84E0EDA28 /* SwrveSDKCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69ADF91765A8E47A8F66D22948B48324 /* SwrveSDKCommon.framework */; };
+		0045643FA65F55228CB5AE47F9828CD3 /* SwrveReceiptProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE4457F742D5810F09DEF83130E14EF /* SwrveReceiptProvider.m */; };
+		01E19438FFF7FE1BA85D2D0949EF2E5D /* SwrveUITableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D5BA4310D8406B60AE55FF154CA64E59 /* SwrveUITableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0295585755F251B1C17861C738DF0D4F /* SwrveTriggerCondition.h in Headers */ = {isa = PBXBuildFile; fileRef = F921E1E0924370C3AC2E7F319AE047EF /* SwrveTriggerCondition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04610DF266D3E24E4DA97C54D118D9CF /* SwrveAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9E634788098F00CFE6A3C4061D74FFE /* SwrveAssets.xcassets */; };
+		04C33044589208CEA2C8DDF3080B45E6 /* SwrveIAPRewards.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD88077C21F41D21909B59732F53A1E /* SwrveIAPRewards.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		052B958811A8D2090190F9AB79F66E2A /* SwrvePushConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EA36BF68A4B230F92DA1F2DBE5C8C87 /* SwrvePushConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08A2CF1E8307EE6728E9B5ECB5F9B0CC /* SwrveCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = E9497A4F42A336971F11900E4495B494 /* SwrveCommon.m */; settings = {COMPILER_FLAGS = "-DSWRVE_SDK_COMMON"; }; };
+		095A7452AEF01C41BEAD0A6B8314100A /* SwrveContentStarRating.h in Headers */ = {isa = PBXBuildFile; fileRef = 27F22D4DD2F6DAC2D0C5A17B1BF08FEC /* SwrveContentStarRating.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E1C811DB3BA7145B19F9EEDCDDC9D4A /* Swrve.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9CFE51C14BAE813ACF23CE86C09AE9 /* Swrve.m */; };
+		0E3070D8CEDCB9290E70C8FC4294AE7E /* SwrveContentStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD2C59B8AE06BE188AAA8E051BE9F39 /* SwrveContentStarRatingView.m */; settings = {COMPILER_FLAGS = "-DSWRVE_CONVERSATION_SDK"; }; };
+		0E963741BA89C1B13A3A5CE4346DD41A /* SwrveConversationAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = C65B85185E89D071B31A549A4E63FAB6 /* SwrveConversationAtom.m */; settings = {COMPILER_FLAGS = "-DSWRVE_CONVERSATION_SDK"; }; };
+		0F986714386CC44695532C14F315C9B4 /* SwrveConversationContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B2971CB7EDC13EE8ACF62BB7D13F1E /* SwrveConversationContainerViewController.m */; settings = {COMPILER_FLAGS = "-DSWRVE_CONVERSATION_SDK"; }; };
+		0F9FB27AE4ADB4F3B9B7D7D091297523 /* SwrveSetup.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E9AE9EB183477768CA52C9CD07B38B9 /* SwrveSetup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1002695C6AB4D9D700729955F3E724C2 /* ISHPermissionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 55DDDE66DE37C3530E54E5F670873F4E /* ISHPermissionRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1021A96BC38E2AD452A8DA99EED8E10E /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73426DFAD3E52DC7013B370D33E78429 /* Photos.framework */; };
+		11037F7E8BB61B4A614CC23E5A72FD38 /* SwrvePushConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 652C8C8913B3A85469717E29FB2AB35F /* SwrvePushConstants.m */; settings = {COMPILER_FLAGS = "-DSWRVE_SDK_COMMON"; }; };
+		11F594D0D2E0185E7898343B97AD4D93 /* ISHPermissionCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = CE1FC9DC0AC46557A3148744DBAF5570 /* ISHPermissionCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1346A3011070BC887092AE5C5C5F7461 /* SwrveCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 486C0E9AE9685690C61A4C431653672D /* SwrveCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		153A468198E2D320E331C7661FEBE51A /* SwrveConversationItemViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F8EEB7B609AC3D96E3983FE799DBB7D /* SwrveConversationItemViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		153F913203D5E93CEB6BF619A599146D /* ISHPermissionRequestAddressBook.h in Headers */ = {isa = PBXBuildFile; fileRef = 082717C269FAACAF047A76D0BB564BE0 /* ISHPermissionRequestAddressBook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1584FC259E95238DDEEB6A0C4D2C8200 /* UIWebView+YouTubeVimeo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8527C26E91D057C606115DDE238E41C1 /* UIWebView+YouTubeVimeo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1605A6045575C4DBBD35A949A8E5A4E9 /* UINavigationController+KeyboardResponderFix.h in Headers */ = {isa = PBXBuildFile; fileRef = 91931FA4E057A9EE698F16EB605325C1 /* UINavigationController+KeyboardResponderFix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		163E78B3D20F3B30332E5CE55C0748D5 /* SwrvePush.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD38070FBE9AF1A938D7F89452EEF5D /* SwrvePush.m */; settings = {COMPILER_FLAGS = "-DSWRVE_SDK_COMMON"; }; };
+		168BC7BE91F7FDCB39664F36FAD851C6 /* SwrveAssetsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2457FF9D7709C2889D92B6A348415FCD /* SwrveAssetsManager.m */; settings = {COMPILER_FLAGS = "-DSWRVE_SDK_COMMON"; }; };
+		16B7DC95E2C07C9F94ADC3A33F34E381 /* SwrveTrigger.h in Headers */ = {isa = PBXBuildFile; fileRef = C62D4FF1BD70684D6CD5D44AB5507989 /* SwrveTrigger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		178280CC150790E9BDFD74634A4E8698 /* SwrveProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B2A2C9DE6A719603019B20B0D94BDBA0 /* SwrveProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17921C06ED0212C7E5FE29AD8460832E /* Swrve.h in Headers */ = {isa = PBXBuildFile; fileRef = 464C6868BBCD294337337D6CF3AA8862 /* Swrve.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1916E80823649DF62D430E1674F8D291 /* SwrveInAppCampaign.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFC19EC2DEDD198C8B2F77A6CC1FFED /* SwrveInAppCampaign.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F2921A8FBFB13DE0E491EEF1DACA6A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA364C5F336A76E4C25198D62ED305A /* UIKit.framework */; };
+		1FCB635F34161BAF1B54026F3130C51E /* SwrveMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 09AF19C0E479BE54DDD5D894471F7B3D /* SwrveMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FFC8194ADE6F34639CF656D59E243FA /* SwrveSignatureProtectedFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7358C58DB4288640D4307EEA915A0D38 /* SwrveSignatureProtectedFile.m */; settings = {COMPILER_FLAGS = "-DSWRVE_SDK_COMMON"; }; };
+		20A61A8928D7E6F3D1E167D0A1D63D7A /* SwrveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8E3F4412290C7BFC0F4435CCF034D6 /* SwrveButton.m */; };
+		21A7BA2ADE9F90249443B2F1E440F46D /* Swrve+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E3C2A648B3A7FA4FCD2BCEC70244EEB /* Swrve+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21A88A04EF388D6E6D370ADBAA5FADD3 /* SwrveLocalStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ADF81C5DCAB675BBC039FB1A23DB11E /* SwrveLocalStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2627A9410900C53F6A3F009F67E73AAA /* SwrveSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8265ABF3FD4CF778B903890C2140274 /* SwrveSDK-dummy.m */; };
+		2743E133A1753A8E49B4A18EF8B4AF44 /* SwrveMessageEventHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A6B8EBCEB921D3C5E47D0846F87D71 /* SwrveMessageEventHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29C410DAD4D54F1B9CAE404228F83625 /* SwrveConversationAtom.h in Headers */ = {isa = PBXBuildFile; fileRef = E33BD6272621C35B6C32D2D7E9B12076 /* SwrveConversationAtom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C7FABE4C3963883DEFF860AE9F497F4 /* VGConversationKitResources-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72F63C300C1818FF96612282162F7F3D /* VGConversationKitResources-Info.plist */; };
+		2CCC78A85303F0B1CC1E0BA7DE32B3C8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252B7D360F3557EA8F32196DBFDDD9BA /* AVFoundation.framework */; };
+		2D5A6865A5663AF8C08ADC69C39DE842 /* SwrveConversationCampaign.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DC298CE72433423513EC1032C00C80 /* SwrveConversationCampaign.m */; };
+		2E5A1185ADD16F033F382CF992CA7200 /* SwrveConversationEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 540BBECFE74904E9D4C6D31DD4B2A13F /* SwrveConversationEvents.m */; settings = {COMPILER_FLAGS = "-DSWRVE_CONVERSATION_SDK"; }; };
+		2FE98561A2F38309D69983A9347505A6 /* SwrveConversationResourceManagement.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F7751E21A0152E51DDCDA7F8F68782F /* SwrveConversationResourceManagement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FD56BBBB096DC24AC12D1735613840 /* SwrveConversationSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 286F10E8D9769222155E18FA46DF622C /* SwrveConversationSDK-dummy.m */; };
+		33EB7CC2634BC509C028022C9917BB72 /* SwrveContentStarRatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EEE9CF5684ED46716D4A23B06BABE84 /* SwrveContentStarRatingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39A5F1E1E4780156A478DA51DDA6A8B8 /* SwrveLocalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 99906209BDF9E609B905BF428C07C23A /* SwrveLocalStorage.m */; settings = {COMPILER_FLAGS = "-DSWRVE_SDK_COMMON"; }; };
+		39EA417E45D97BC497AD9AF5F43D22B9 /* SwrveConversation.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6E5D7B5A4738A7E3F10ED200A852A7 /* SwrveConversation.m */; };
+		3C5B013E01DDE594E10C4818DBBC5657 /* SwrveTriggerCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = B07242D5518E19565DF1956E9E65CD84 /* SwrveTriggerCondition.m */; };
+		3D95CDAEDC7FA70D4296E05B3A9BA026 /* SwrveConversationStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 44F323A457736E4C1FF541546B7CFF38 /* SwrveConversationStyler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DBD4246BFA60EDC1C7813C84FB3C6DC /* SwrveConversationPane.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F52D7044F1C4F6E92788D4C47316D86 /* SwrveConversationPane.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4299E192754F5FE602DF500AC8657319 /* SwrveConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 11879D6A54960B3651CDFA94981F86DF /* SwrveConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4355FC94A88401DE610253EDF3133551 /* SwrveIAPRewards.m in Sources */ = {isa = PBXBuildFile; fileRef = 3006672B6E0D6C642E389EBC77D4DD24 /* SwrveIAPRewards.m */; };
+		444D46D34A7525CE0757F1B565072C13 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F51AF1739B94907DC175F66BEAF0D7A /* QuartzCore.framework */; };
+		4720923B71C51853BB57C80163CA912F /* SwrveUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 307793642E3C355353F1B7E530C1C421 /* SwrveUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47D959D2065F72DC7EA86394C8E36A51 /* SwrveDeeplinkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 832693A43AD829CAD7BE86D1DACF143D /* SwrveDeeplinkManager.m */; };
+		48FE201973DA10CB8C2858BC2D96D190 /* SwrveContentSpacer.h in Headers */ = {isa = PBXBuildFile; fileRef = 68079237E67E3D4C6018A07F9333E852 /* SwrveContentSpacer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CB2261DC620632C4E78999AA4BE019D /* SwrveSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = B378A95AB84DD11AA142035708DEED5A /* SwrveSDK.m */; };
+		4F6E8DEBF6F587DD8FFDC7B7DFDC366D /* SwrveConversationResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F9E700C689306CE478B0A759027566 /* SwrveConversationResource.m */; settings = {COMPILER_FLAGS = "-DSWRVE_CONVERSATION_SDK"; }; };
+		4F9F26EAEA69B9B6824C3013ECD70B13 /* SwrveDeeplinkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 59380F30B7674E385CF40E2EC7FB4F0B /* SwrveDeeplinkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		503C7AEBA69D19DABB44E46043E6C01B /* SwrveCampaignStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 06427F86E59BF288023833B763D68825 /* SwrveCampaignStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51B6EECF85D77B07246B1D1B45731BD4 /* SwrveInputItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5DB0C2C1D15617D862C3EB8C18FD96 /* SwrveInputItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		526B26A9465C7D9870237004725E8751 /* SwrveConversationAtomFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 858850F15EC0FC1F1BB4FCABE808EAA4 /* SwrveConversationAtomFactory.m */; settings = {COMPILER_FLAGS = "-DSWRVE_CONVERSATION_SDK"; }; };
+		53B14D5D43A4C4A0068B36669F928511 /* SwrveAssetsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C315E8130D41F941B4E4B16F3A2FCBB4 /* SwrveAssetsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56AF5A1AFD49C2C3717842B61FF1E3E2 /* SwrveQA.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9C668154801FD8B8C9F78281707E6C /* SwrveQA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56C85943991A63DF0DFC461C502138A9 /* SwrveContentSpacer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7AF6FA8315424750280FD716D2ED16 /* SwrveContentSpacer.m */; settings = {COMPILER_FLAGS = "-DSWRVE_CONVERSATION_SDK"; }; };
+		572268A3C725986771D2484432DE7DE2 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA4F9F731623105630AA15A54121607 /* AddressBook.framework */; };
+		57776D2F0BDC03EE3B9F31411BB8FDFB /* SwrveConversationsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96C0B68F7C9B9EF69932D8D628D56AE /* SwrveConversationsNavigationController.m */; settings = {COMPILER_FLAGS = "-DSWRVE_CONVERSATION_SDK"; }; };
+		57A0122AED05625F303AA54732C3F2D3 /* SwrveRESTClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 082A82CE25735BE3690F18589FADD552 /* SwrveRESTClient.m */; settings = {COMPILER_FLAGS = "-DSWRVE_SDK_COMMON"; }; };
+		58AC69F30281AA4823AD61F933037329 /* SwrveConversationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 610FD50D4471DC54DA66CE36D6F40F93 /* SwrveConversationButton.m */; settings = {COMPILER_FLAGS = "-DSWRVE_CONVERSATION_SDK"; }; };
+		5AFAABC6B18BAE224E54D34C7BB67671 /* SwrveCommonConnectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 480ABCA6711BAD333C1C127BB09B9397 /* SwrveCommonConnectionDelegate.m */; settings = {COMPILER_FLAGS = "-DSWRVE_SDK_COMMON"; }; };
+		5C7D2151F3DD11C56FF08F5B39D8E134 /* SwrveInputMultiValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 58BB8EC9FE29D78D1AB8765BB5EC48AE /* SwrveInputMultiValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CFB5945C57B965BF441C4B198E486E0 /* ISHPermissionRequest+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 140FB6D8B2D979F1A0CFC5014AFAC8C8 /* ISHPermissionRequest+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1E16B0895A50E4A8C74D27A3659F8E /* ISHPermissionRequestPhotoLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FCFDCAF44C1ECFCDACF5DD143FCBCD /* ISHPermissionRequestPhotoLibrary.m */; settings = {COMPILER_FLAGS = "-DSWRVE_SDK_COMMON"; }; };
+		5E3E0F0BD5C8183628D9C425D9BE3753 /* SwrveMigrationsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 32891722BBDE694680B56EB005482498 /* SwrveMigrationsManager.m */; };
+		5FEC1B6DC18D5743C0EFE3E4426B218A /* SwrveRESTClient.h in Headers */ = {isa = PBXBuildFile; fileRef = D14E0270EAFFDE0D9C78157DE02F1771 /* SwrveRESTClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60B442EFF5071E899AF868AEA8B4E88A /* SwrveContentVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5F7CAF0A64E304F1E71F810C0C6543 /* SwrveContentVideo.m */; settings = {COMPILER_FLAGS = "-DSWRVE_CONVERSATION_SDK"; }; };
+		622820A964F1E84AE4C7A2E53C4BBA94 /* SwrveConversationCampaign.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD764E43BE011D40A19E608EEB93325 /* SwrveConversationCampaign.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63E748D6513E0A18119D100D98EBC877 /* SwrveContentHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6A3FED070664328C2EBC97DB0F956B /* SwrveContentHTML.m */; settings = {COMPILER_FLAGS = "-DSWRVE_CONVERSATION_SDK"; }; };
+		6612A911A5236543F5989C7C55029BD3 /* ISHPermissionRequestPhotoCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 274BC6B6423C812DF87DD76D6EB8A738 /* ISHPermissionRequestPhotoCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B9952168EB302E71438A70819B6CA1E /* SwrveMigrationsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 40CCDF1E6C6B0C1C6315648D6A8D3AA9 /* SwrveMigrationsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BD51E3D17DFBF727FBC23A340A1B6BF /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5781F94B55C88561FE2D0C047E96EB7 /* MessageUI.framework */; };
+		6E325164DF17BF09E563FD94D6894D94 /* SwrveMessageController.h in Headers */ = {isa = PBXBuildFile; fileRef = D9116FECC3F31314B0441B3CC0CCAAD6 /* SwrveMessageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710FAD85995DA49C92EA281EC5FC0785 /* SwrveMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = AA562B02CA26BFD35A415A8DF70C903D /* SwrveMessage.m */; };
+		71ED4F0D05F45FFEF53F83A5F10A38C8 /* SwrveUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 479512C9FA56509BCB6E7C0F84D05645 /* SwrveUtils.m */; };
+		73C317CF9C08EDEDD13F494B53DAC3D9 /* SwrveConversationResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 387B898D5AC3316FA2BEE85116AC9761 /* SwrveConversationResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76F342897692797672A5173A27E535BC /* SwrveSwizzleHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 42FE564594D057ECE1DC76607826B464 /* SwrveSwizzleHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79A914FD9FE5B996978F7FF555EECF20 /* SwrveConversationStyler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7882D124F8E7B66E553559D84F20EEC2 /* SwrveConversationStyler.m */; settings = {COMPILER_FLAGS = "-DSWRVE_CONVERSATION_SDK"; }; };
+		7C2AEC5AC93EB0895A7177432C162246 /* SwrveConversationItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6E8D287BD2BB7C397E14194D154276 /* SwrveConversationItemViewController.m */; settings = {COMPILER_FLAGS = "-DSWRVE_CONVERSATION_SDK"; }; };
+		7CEE1174F31BC69CD2BBE7A6418FA8C1 /* SwrveMessageController+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 723ABAF95E289CD02834E8A0B8BCFE11 /* SwrveMessageController+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D043E433812E346D79CD6DF6E282784 /* SwrveContentHTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BF807844DB76E09BD45DDFC1A88F4F3 /* SwrveContentHTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D10A028E2477A532CA9AFDA45081CD4 /* SwrveResourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE7F0EA6B76082BDB47BF868C14865A /* SwrveResourceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EB76B0DF2BEDEC62CB4D810F9290102 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555AC44EC991F6A6F72C0463970ADF46 /* Foundation.framework */; };
+		7F58A6F42BC958E186A898B3C41ACB49 /* SwrveCampaign.h in Headers */ = {isa = PBXBuildFile; fileRef = 71047F2181526D69B198E7E30E4721DF /* SwrveCampaign.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8321AB8D01C804F7DE377FFBE81CFF2C /* SwrveEmpty.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D335448C11BF79E6FA8C9050C51C834 /* SwrveEmpty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		859AB2B3F2FE0FDC6F24336172872FDF /* SwrveMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E52215FE89D87548EB4E8DABE6F00 /* SwrveMessageController.m */; };
+		86AD5896EF32F1FDDE8A0BD1D8B260CF /* SwrvePushMediaHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED785F7F12AE6D1A495E9BF307C804B /* SwrvePushMediaHelper.m */; settings = {COMPILER_FLAGS = "-DSWRVE_SDK_COMMON"; }; };
+		86B2F72764363F1545B203F092C7049C /* SwrveMessageFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = CBBA94D0DDC74830A0533DE0887945C2 /* SwrveMessageFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87CB3461333A19CCF565FEEA20B5EFFA /* SwrveSwizzleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B73E541E4F40164D67FCD7F2906FBA /* SwrveSwizzleHelper.m */; settings = {COMPILER_FLAGS = "-DSWRVE_SDK_COMMON"; }; };
+		8A88194835678A0F10752FCDBDABFB8E /* SwrveContentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0970D6D9DE64E7800602B2B05436D78F /* SwrveContentItem.m */; settings = {COMPILER_FLAGS = "-DSWRVE_CONVERSATION_SDK"; }; };
+		8CDA918E5C1E32C1F0E837E4439D90B1 /* SwrveConversationAtomFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3FADD3B207013875833EB159C83ABA /* SwrveConversationAtomFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0B847F8B84ED47E90A1EB512250748 /* SwrveContentImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA1FE97F4B94B08971895F2636AC456 /* SwrveContentImage.m */; settings = {COMPILER_FLAGS = "-DSWRVE_CONVERSATION_SDK"; }; };
+		8D7E0A804AEB517E76F00C26C453C9B8 /* SwrveContentVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2231640BC81AEF749C6206D06EB0FADD /* SwrveContentVideo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F734B0FD9745A13A553E32DFADA3956 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E006DC911E3B9E80444DB7D993A8BD /* AssetsLibrary.framework */; };
+		942EA4D8D09805E31DD8257AA910509F /* SwrveConversationSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 529E895C9B279CC6AE4673F2512E10EA /* SwrveConversationSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		961A380D910D0A12226E2F1BCFD7141D /* ISHPermissionRequest+All.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CD53789C8D98BD0639E4B2D56C97AC /* ISHPermissionRequest+All.m */; settings = {COMPILER_FLAGS = "-DSWRVE_SDK_COMMON"; }; };
+		96B6FEDCDD3717D9D07A3BA50A447599 /* SwrveProfileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F2FD2A1CCA56D6FEA7AF8838C925F62E /* SwrveProfileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96EB2344F74B9ACB4898962C3F9C8FC8 /* SwrveImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AD217AA39D927C0F7DCC227540C7E8ED /* SwrveImage.m */; };
+		97C593B5321FAC10B5C045B0D03C3DF4 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4FB42A27F47A83CB70307A96C47E2D1 /* Contacts.framework */; };
+		9A6C1A1169FB107610FF52A63A4C61CA /* SwrveDeviceProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = EF98D05D2C5C40AC87A1B6BD86A34A49 /* SwrveDeviceProperties.m */; };
+		9C899ACEE02BF86D01638C4AF431FFB8 /* SwrvePush.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA1ADC11855E5DA798CB0CA2289C1DA /* SwrvePush.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1FE28F2B52FF191347DE6E5973D3DC2 /* SwrveProfileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE050DCF11B877616DFE5066A9267411 /* SwrveProfileManager.m */; settings = {COMPILER_FLAGS = "-DSWRVE_SDK_COMMON"; }; };
+		A20CC744DA2701EE4B4B4D9C95B1D885 /* SwrveQA.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DFED25478555FFF867E71971BB50DC /* SwrveQA.m */; settings = {COMPILER_FLAGS = "-DSWRVE_SDK_COMMON"; }; };
+		A20DB5EE10DCF712D67D7433295FA846 /* SwrveBaseConversation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCE2244EB49107CC744522CB92A2B76 /* SwrveBaseConversation.m */; settings = {COMPILER_FLAGS = "-DSWRVE_CONVERSATION_SDK"; }; };
+		A2D5D9F92EDB1A80324048F6682A2B25 /* SwrvePushMediaHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 635D373B1DB421BDD9B7E1AB19BB0ED1 /* SwrvePushMediaHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A31B3D2F3A05C3DF2921E69EE40536E0 /* SwrveContentImage.h in Headers */ = {isa = PBXBuildFile; fileRef = E8B2490F5874E95D845923923B04B860 /* SwrveContentImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A579F1344D2AC11F36B19B90070C895E /* SwrveUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A199E53941573FEC410F6B3842520C0 /* SwrveUITableViewCell.m */; settings = {COMPILER_FLAGS = "-DSWRVE_CONVERSATION_SDK"; }; };
+		A720B29448A9CE2D6D9A87DBCD782205 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555AC44EC991F6A6F72C0463970ADF46 /* Foundation.framework */; };
+		A7AF0C65F50C5D966DFFBA9A1AC56705 /* ISHPermissionRequestPhotoLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = EF3A672E3A5BD46BB246FBC7965A12CE /* ISHPermissionRequestPhotoLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7B9EC034046998DF02C0BC05CEBCBBE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E9BFBAC79DBCBE67C9EB0B3F55EB9C /* Security.framework */; };
+		A7CB6EE74FA3FAD5C549337CDC9CE1FB /* ISHPermissionRequestLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A07674DC861282A53DAE573EA222430 /* ISHPermissionRequestLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7CD9DABFADCBDC8EF0AD89EC3FE92AA /* Pods-Shaw + Scott Swrve V2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D895A3A35C83212DF866FFFA56987D1 /* Pods-Shaw + Scott Swrve V2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8DCFF2D181583838157AA05DC923CC4 /* SwrveConversationsNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = EE0A24179B24D93714A85AAE3FADC8D0 /* SwrveConversationsNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A99DAAE64A0AC71E23511CC152355AD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555AC44EC991F6A6F72C0463970ADF46 /* Foundation.framework */; };
+		ABF8D23DC78823544EE7DBE9BC1BE9E3 /* ISHPermissionRequestAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 29085DFD972A0A41CDB8295BA0F3E594 /* ISHPermissionRequestAddressBook.m */; settings = {COMPILER_FLAGS = "-DSWRVE_SDK_COMMON"; }; };
+		AD3A6FEE6C5933F29E54D2522E272918 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B2E3C213115078BE2734E71ECAC893 /* CoreText.framework */; };
+		B19B4180CDD96A2BA43E6F7D5AF0FCBE /* SwrveInAppCampaign.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E66B7BDAF9D62313EA1119D08541A81 /* SwrveInAppCampaign.m */; };
+		B60E3F38750126DD30E9AA106A852339 /* ISHPermissionRequestNotificationsRemote.h in Headers */ = {isa = PBXBuildFile; fileRef = EE4299C129195162CB1FBFC0C8172766 /* ISHPermissionRequestNotificationsRemote.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA575EE079143041F5E8E1E35EF673A5 /* SwrveSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CC600A5D5AFB1CB1D618089DB06C872 /* SwrveSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BADF2E819C1ECD7F48BAF48386FD11C2 /* SwrveMessageDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DFD94D34E71EF2C4CE3176EF2C9DFD74 /* SwrveMessageDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB2CF26626C7748005A35B6C98D4C604 /* SwrveTrigger.m in Sources */ = {isa = PBXBuildFile; fileRef = 467341772BAA6162220CE875A1BFF3B7 /* SwrveTrigger.m */; };
+		BBD964C755DBFBD27AF254E206E3E5F6 /* SwrvePermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5DD773B46B7DDD4869F852A237A2BC /* SwrvePermissions.m */; settings = {COMPILER_FLAGS = "-DSWRVE_SDK_COMMON"; }; };
+		C06B6D522C059310C6589C2F588C4C28 /* SwrveConversationEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E0082583241EB806147C47A62B19E6 /* SwrveConversationEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C09D05E0563A9FF1951368B4F0B3566B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E4344EA0266554CA13FE8917C3C24D /* CoreTelephony.framework */; };
+		C3921BD9716D39566AE961C0D2D8EE1F /* SwrveCampaign+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = E447D72083E24B4EC70F3880B0E0B19E /* SwrveCampaign+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5403E54A7FB72E52E67F8FBCAC40637 /* SwrveDeviceProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = C8E9FF520A8054A621EFC03A474332D9 /* SwrveDeviceProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8E4230C1F4903B4C54555645D549B43 /* SwrveConversationButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F1B02CF725106F4275D0CCDB210755B4 /* SwrveConversationButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9CF4A5943904A4ACC592F01D0878762 /* UIWebView+YouTubeVimeo.m in Sources */ = {isa = PBXBuildFile; fileRef = B2123969ADA72973111BFFABAF587312 /* UIWebView+YouTubeVimeo.m */; settings = {COMPILER_FLAGS = "-DSWRVE_CONVERSATION_SDK"; }; };
+		C9FA4B69767900A604E05CD68F6DE6C8 /* UINavigationController+KeyboardResponderFix.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E759618F4A061768322088B4BC8BCC3 /* UINavigationController+KeyboardResponderFix.m */; settings = {COMPILER_FLAGS = "-DSWRVE_CONVERSATION_SDK"; }; };
+		CA69D8E326EF2444A2A11F41E66A4077 /* SwrveConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C3A35E830FCFE63BF20F901319ABA5 /* SwrveConfig.m */; };
+		CCB7A50F17DD3F166D15DA9894C14392 /* SwrveQAUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 919499251586F2992EE87262C4CCF917 /* SwrveQAUser.m */; };
+		CD6141623276C99D49188A9EE7DFE269 /* SwrveMessageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9990A3FC97C812257A69F233EDFD4DBA /* SwrveMessageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFE8C2E2C4493F4F8926BDD9341D01DE /* Pods-Shaw + Scott Swrve V2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5288A4E2A51315B8B93BB6B693CF9F /* Pods-Shaw + Scott Swrve V2-dummy.m */; };
+		D0DC65F2FEF120788C4886BD5B62D23E /* SwrveBaseConversation.h in Headers */ = {isa = PBXBuildFile; fileRef = ACBFFC1DE78C1AE4380B2E5A1702C543 /* SwrveBaseConversation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D14E69E9B25A63E844E7F45A6A0972B3 /* SwrveSignatureProtectedFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D740FE6ED7D71CF2DA3AF3EC8C6331E /* SwrveSignatureProtectedFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D18B71D6DBD6227A41D45BFE1AC17656 /* SwrveSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = F51E40C8EC7B2CAA4CE5CD220DF9CBA1 /* SwrveSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2D3601ABC6F0CFD0D49C57DD9481775 /* SwrveSDKCommon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 853AECBC05B25815D30C61B62C29D02B /* SwrveSDKCommon-dummy.m */; };
+		D37C5E5476A5130C06AF6E8932C1674F /* SwrveSDKCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69ADF91765A8E47A8F66D22948B48324 /* SwrveSDKCommon.framework */; };
+		D3A0C01BFFBC55E79004E5A4C43BA75B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9BA864E7C8584E9C0E82C7AAB21A95 /* CFNetwork.framework */; };
+		D5642DE10C789011222DF29B47AA9E87 /* SwrveConversationPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 289406FF37643653487359E22758C5B5 /* SwrveConversationPane.m */; settings = {COMPILER_FLAGS = "-DSWRVE_CONVERSATION_SDK"; }; };
+		D5AF3E58529E905B0A335F507667CA70 /* SwrveEventsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E641F9C149095A28D92407741AF3773E /* SwrveEventsManager.m */; };
+		D77E074A41FB25F32AD75339CE1AA879 /* SwrveConversation.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C151759B5E51D173F1F0C4C8E3E4A0 /* SwrveConversation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7B176E37177B762330E4C5AB3C714DC /* SwrveCampaign.m in Sources */ = {isa = PBXBuildFile; fileRef = 04555BF00DE05A21397199E13A5A9E26 /* SwrveCampaign.m */; };
+		D80E51A978AC15CBFF0CC8DE92E5A618 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC736E89ACBB760F1F8D8C1FE581E09 /* StoreKit.framework */; };
+		D8927C3815F4ACB1F53B01F68964C46C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E176DD4AFC9C17AFC5923473BC10FE /* CoreLocation.framework */; };
+		DB11B5ADC3BC963322D50135AC929F15 /* SwrveContentStarRating.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BF764B1575900929BAB62998A315AA /* SwrveContentStarRating.m */; settings = {COMPILER_FLAGS = "-DSWRVE_CONVERSATION_SDK"; }; };
+		DBE5AF9433E2315BC934DB282014811A /* SwrveMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2818449E3C6C02E277942D194E99130E /* SwrveMessageViewController.m */; };
+		DD463C62DDC1CEF9A971D4301A0D0647 /* ISHPermissionRequestNotificationsRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1DAF0FE22BFDBA5DD9F35FA2483340 /* ISHPermissionRequestNotificationsRemote.m */; settings = {COMPILER_FLAGS = "-DSWRVE_SDK_COMMON"; }; };
+		DE3D9F22455C6480BA6B27510C0FF61A /* SwrveButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B4190B077FFC4828ECD6D7282600485A /* SwrveButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEC8B1E1A34EC036ECFDCECF8498071F /* SwrveQAUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B8DD97B8533D196DAF43698E27919BA /* SwrveQAUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E20FA0C13B426636F95A2E213FECF54B /* SwrveConversationUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CB86DFA9ECD2DA85D54727277D34E9F8 /* SwrveConversationUIButton.m */; settings = {COMPILER_FLAGS = "-DSWRVE_CONVERSATION_SDK"; }; };
+		E32835EA2C50B1B7E56A97A43E38B0D5 /* SwrveConversationSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9A4DB837A53E0C5151C028E5C923D9 /* SwrveConversationSDK.framework */; };
+		E3C2ED547D7FAB5ECFEF0CF6E4972E8C /* SwrveSDKCommon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCED5287254A6C54FE286EFE34126DB1 /* SwrveSDKCommon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4191DF1435FFC55CA5382169CDB358D /* SwrveImage.h in Headers */ = {isa = PBXBuildFile; fileRef = F7DE80B21083DBD835317F4527645942 /* SwrveImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5E6B230BD7417F5122DB5AFEF5B2F88 /* SwrveEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = CA018C2214A507CCCCAEBAD538290758 /* SwrveEmpty.m */; };
+		E7E1F2352573A3B295EB0AE0B761E29F /* SwrveCommonConnectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 11A3CDA049A083D4611883172A76D38C /* SwrveCommonConnectionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7F30F6DF27D27B414C723C71EC4B3AE /* SwrveConversationResourceManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A4F644A80D489AAB2E4E9A8B20D2B7 /* SwrveConversationResourceManagement.m */; settings = {COMPILER_FLAGS = "-DSWRVE_CONVERSATION_SDK"; }; };
+		E8BBC2939DBD8582EE0B795FE2C57978 /* SwrveEventsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C3A8210A2BE046351263565989F37D0 /* SwrveEventsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA94757C97FF35050CEAF4B174C4C572 /* SwrveInputItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECB07A0AF589D5289E5CF3F5621ABCC /* SwrveInputItem.m */; settings = {COMPILER_FLAGS = "-DSWRVE_CONVERSATION_SDK"; }; };
+		EB3B68012C804BAE096326E59FE95512 /* SwrveInterfaceOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A853E8830607F1C082D610E8C790DA /* SwrveInterfaceOrientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFED7E552506F4EF57BF2E3CDAE70D53 /* SwrveContentItem.h in Headers */ = {isa = PBXBuildFile; fileRef = E54B6851C808F99AFDD004DE7EDF8274 /* SwrveContentItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0D9B0DE7031F2234746028CE06C98B6 /* SwrveConversationContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 46660C4BD6CF488B43E4BCF641AD670C /* SwrveConversationContainerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1005659BA148326046262B3F5BDB630 /* SwrveConversation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33988245E4E421FC98A1F863FC9089B /* SwrveConversation.storyboard */; };
+		F324A05872A974028DB59F57076B2173 /* SwrveMessageFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = A99A446FA1EFFA7E42D6649CC787236F /* SwrveMessageFormat.m */; };
+		F4F8B70F1C351ABB24720C6D79839168 /* ISHPermissionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F9FB53EEB466E0C237AAFB8CAF7E31 /* ISHPermissionRequest.m */; settings = {COMPILER_FLAGS = "-DSWRVE_SDK_COMMON"; }; };
+		F581B5C9986E1EE92C30CDB1A7F3796F /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA67C7C8C80F1681F0B06DABB4F97B4 /* UserNotifications.framework */; };
+		F68A847B9C9735692DE4CD84FC03D927 /* SwrveResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7233D24CFE959F49F671380780EEDE /* SwrveResourceManager.m */; };
+		F6E60693DCD78D0D8A63B2997906A1DB /* SwrveConversationUIButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D358BD6F43EA46C8B32382B0A3C96D81 /* SwrveConversationUIButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F760111EB2CF6EE1AC9F320812520072 /* SwrveInputMultiValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 775EB41D62BA0259E538A9BB223E4A25 /* SwrveInputMultiValue.m */; settings = {COMPILER_FLAGS = "-DSWRVE_CONVERSATION_SDK"; }; };
+		F81FBC3A95DD5A2DC4B79FB1C098D15D /* ISHPermissionRequest+All.h in Headers */ = {isa = PBXBuildFile; fileRef = 02A45551C2BE409171FFF51F26BA6D00 /* ISHPermissionRequest+All.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F857C52AC458EC9D59E961304FFAE992 /* ISHPermissionRequestLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D42CF496996DB663F4958238CF34C142 /* ISHPermissionRequestLocation.m */; settings = {COMPILER_FLAGS = "-DSWRVE_SDK_COMMON"; }; };
+		FBC4E60B27D6DA23B0BD4A7A7465FCF5 /* ISHPermissionRequestPhotoCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 0385200BE1913DA4BEEAC13E5BF7818F /* ISHPermissionRequestPhotoCamera.m */; settings = {COMPILER_FLAGS = "-DSWRVE_SDK_COMMON"; }; };
+		FEDD2CE005FDEB9376D40239EA780B8E /* SwrveReceiptProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CEEE4D8235767E62778226BE23AED10 /* SwrveReceiptProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF1A5CA752CC43520BC5BF5DEF257AA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555AC44EC991F6A6F72C0463970ADF46 /* Foundation.framework */; };
+		FF25715C2E7941BF47A559A3007578A2 /* SwrvePermissions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F09DABB433927AD3E6128C637BE5EC0 /* SwrvePermissions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3034F32E642704CAFD1CD878BF125D25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B626AB49B93947C97E7949D2798EBEB6;
+			remoteInfo = SwrveConversationSDK;
+		};
+		4639135F3B3AC3B85273B647B3A19D0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9466951F113CE03672B93DA73F473339;
+			remoteInfo = SwrveSDK;
+		};
+		4ECA5C7129190383E5EAC57D0522D9BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B626AB49B93947C97E7949D2798EBEB6;
+			remoteInfo = SwrveConversationSDK;
+		};
+		50205517914132301CFA29BCE3BED3C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4602131E2F2953D893FD51F723938963;
+			remoteInfo = SwrveSDKCommon;
+		};
+		78303EA15948D6DDE7A9B5EEC2A7A90F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4602131E2F2953D893FD51F723938963;
+			remoteInfo = SwrveSDKCommon;
+		};
+		8148DB07350D63D6EE7DE0FF07DB69F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4602131E2F2953D893FD51F723938963;
+			remoteInfo = SwrveSDKCommon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A45551C2BE409171FFF51F26BA6D00 /* ISHPermissionRequest+All.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ISHPermissionRequest+All.h"; path = "SwrveSDKCommon/Common/Permissions/ISHPermissionRequest+All.h"; sourceTree = "<group>"; };
+		0385200BE1913DA4BEEAC13E5BF7818F /* ISHPermissionRequestPhotoCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISHPermissionRequestPhotoCamera.m; path = SwrveSDKCommon/Common/Permissions/ISHPermissionRequestPhotoCamera.m; sourceTree = "<group>"; };
+		04555BF00DE05A21397199E13A5A9E26 /* SwrveCampaign.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveCampaign.m; path = SwrveSDK/SDK/Messaging/SwrveCampaign.m; sourceTree = "<group>"; };
+		055BD150D977E1FF218702F00F869CFB /* SwrveSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwrveSDK-prefix.pch"; sourceTree = "<group>"; };
+		06427F86E59BF288023833B763D68825 /* SwrveCampaignStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveCampaignStatus.h; path = SwrveSDK/SDK/Messaging/SwrveCampaignStatus.h; sourceTree = "<group>"; };
+		082717C269FAACAF047A76D0BB564BE0 /* ISHPermissionRequestAddressBook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISHPermissionRequestAddressBook.h; path = SwrveSDKCommon/Common/Permissions/ISHPermissionRequestAddressBook.h; sourceTree = "<group>"; };
+		082A82CE25735BE3690F18589FADD552 /* SwrveRESTClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveRESTClient.m; path = SwrveSDKCommon/Common/SwrveRESTClient.m; sourceTree = "<group>"; };
+		0834AD8590F185AF2A9168C73E2BBA90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0897F064D55F13F66AFCCF80FEA07FE7 /* SwrveSDKCommon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwrveSDKCommon-prefix.pch"; sourceTree = "<group>"; };
+		08CD53789C8D98BD0639E4B2D56C97AC /* ISHPermissionRequest+All.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ISHPermissionRequest+All.m"; path = "SwrveSDKCommon/Common/Permissions/ISHPermissionRequest+All.m"; sourceTree = "<group>"; };
+		08E0082583241EB806147C47A62B19E6 /* SwrveConversationEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveConversationEvents.h; path = SwrveConversationSDK/Conversation/SwrveConversationEvents.h; sourceTree = "<group>"; };
+		0970D6D9DE64E7800602B2B05436D78F /* SwrveContentItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveContentItem.m; path = SwrveConversationSDK/Conversation/SwrveContentItem.m; sourceTree = "<group>"; };
+		09AF19C0E479BE54DDD5D894471F7B3D /* SwrveMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveMessage.h; path = SwrveSDK/SDK/Messaging/SwrveMessage.h; sourceTree = "<group>"; };
+		0CA1FE97F4B94B08971895F2636AC456 /* SwrveContentImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveContentImage.m; path = SwrveConversationSDK/Conversation/SwrveContentImage.m; sourceTree = "<group>"; };
+		0E66B7BDAF9D62313EA1119D08541A81 /* SwrveInAppCampaign.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveInAppCampaign.m; path = SwrveSDK/SDK/Messaging/SwrveInAppCampaign.m; sourceTree = "<group>"; };
+		0ED785F7F12AE6D1A495E9BF307C804B /* SwrvePushMediaHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrvePushMediaHelper.m; path = SwrveSDKCommon/Common/Push/SwrvePushMediaHelper.m; sourceTree = "<group>"; };
+		0FCDFF274F6049C095BD8B2FD61D27E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FD2C59B8AE06BE188AAA8E051BE9F39 /* SwrveContentStarRatingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveContentStarRatingView.m; path = SwrveConversationSDK/Conversation/SwrveContentStarRatingView.m; sourceTree = "<group>"; };
+		10C15B3BB696567EF71E0FB3C24CC78B /* Pods-Shaw + Scott Swrve V2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Shaw + Scott Swrve V2.modulemap"; sourceTree = "<group>"; };
+		11879D6A54960B3651CDFA94981F86DF /* SwrveConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveConfig.h; path = SwrveSDK/SDK/SwrveConfig.h; sourceTree = "<group>"; };
+		11A3CDA049A083D4611883172A76D38C /* SwrveCommonConnectionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveCommonConnectionDelegate.h; path = SwrveSDKCommon/Common/SwrveCommonConnectionDelegate.h; sourceTree = "<group>"; };
+		140FB6D8B2D979F1A0CFC5014AFAC8C8 /* ISHPermissionRequest+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ISHPermissionRequest+Private.h"; path = "SwrveSDKCommon/Common/Permissions/ISHPermissionRequest+Private.h"; sourceTree = "<group>"; };
+		14E006DC911E3B9E80444DB7D993A8BD /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		15E4344EA0266554CA13FE8917C3C24D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		1A199E53941573FEC410F6B3842520C0 /* SwrveUITableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveUITableViewCell.m; path = SwrveConversationSDK/Conversation/SwrveUITableViewCell.m; sourceTree = "<group>"; };
+		1CC600A5D5AFB1CB1D618089DB06C872 /* SwrveSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwrveSDK-umbrella.h"; sourceTree = "<group>"; };
+		1F1DAF0FE22BFDBA5DD9F35FA2483340 /* ISHPermissionRequestNotificationsRemote.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISHPermissionRequestNotificationsRemote.m; path = SwrveSDKCommon/Common/Permissions/ISHPermissionRequestNotificationsRemote.m; sourceTree = "<group>"; };
+		1F7751E21A0152E51DDCDA7F8F68782F /* SwrveConversationResourceManagement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveConversationResourceManagement.h; path = SwrveConversationSDK/Conversation/SwrveConversationResourceManagement.h; sourceTree = "<group>"; };
+		20A6B8EBCEB921D3C5E47D0846F87D71 /* SwrveMessageEventHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveMessageEventHandler.h; path = SwrveConversationSDK/Conversation/SwrveMessageEventHandler.h; sourceTree = "<group>"; };
+		2231640BC81AEF749C6206D06EB0FADD /* SwrveContentVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveContentVideo.h; path = SwrveConversationSDK/Conversation/SwrveContentVideo.h; sourceTree = "<group>"; };
+		23B2971CB7EDC13EE8ACF62BB7D13F1E /* SwrveConversationContainerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveConversationContainerViewController.m; path = SwrveConversationSDK/Conversation/SwrveConversationContainerViewController.m; sourceTree = "<group>"; };
+		2457FF9D7709C2889D92B6A348415FCD /* SwrveAssetsManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveAssetsManager.m; path = SwrveSDKCommon/Common/SwrveAssetsManager.m; sourceTree = "<group>"; };
+		252B7D360F3557EA8F32196DBFDDD9BA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		274BC6B6423C812DF87DD76D6EB8A738 /* ISHPermissionRequestPhotoCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISHPermissionRequestPhotoCamera.h; path = SwrveSDKCommon/Common/Permissions/ISHPermissionRequestPhotoCamera.h; sourceTree = "<group>"; };
+		27F22D4DD2F6DAC2D0C5A17B1BF08FEC /* SwrveContentStarRating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveContentStarRating.h; path = SwrveConversationSDK/Conversation/SwrveContentStarRating.h; sourceTree = "<group>"; };
+		2818449E3C6C02E277942D194E99130E /* SwrveMessageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveMessageViewController.m; path = SwrveSDK/SDK/Messaging/SwrveMessageViewController.m; sourceTree = "<group>"; };
+		286F10E8D9769222155E18FA46DF622C /* SwrveConversationSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwrveConversationSDK-dummy.m"; sourceTree = "<group>"; };
+		289406FF37643653487359E22758C5B5 /* SwrveConversationPane.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveConversationPane.m; path = SwrveConversationSDK/Conversation/SwrveConversationPane.m; sourceTree = "<group>"; };
+		29085DFD972A0A41CDB8295BA0F3E594 /* ISHPermissionRequestAddressBook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISHPermissionRequestAddressBook.m; path = SwrveSDKCommon/Common/Permissions/ISHPermissionRequestAddressBook.m; sourceTree = "<group>"; };
+		290E52215FE89D87548EB4E8DABE6F00 /* SwrveMessageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveMessageController.m; path = SwrveSDK/SDK/Messaging/SwrveMessageController.m; sourceTree = "<group>"; };
+		2A07674DC861282A53DAE573EA222430 /* ISHPermissionRequestLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISHPermissionRequestLocation.h; path = SwrveSDKCommon/Common/Permissions/ISHPermissionRequestLocation.h; sourceTree = "<group>"; };
+		2C9A4DB837A53E0C5151C028E5C923D9 /* SwrveConversationSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwrveConversationSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD88077C21F41D21909B59732F53A1E /* SwrveIAPRewards.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveIAPRewards.h; path = SwrveSDK/SDK/SwrveIAPRewards.h; sourceTree = "<group>"; };
+		2E759618F4A061768322088B4BC8BCC3 /* UINavigationController+KeyboardResponderFix.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+KeyboardResponderFix.m"; path = "SwrveConversationSDK/Conversation/Categories/UINavigationController+KeyboardResponderFix.m"; sourceTree = "<group>"; };
+		2EEE9CF5684ED46716D4A23B06BABE84 /* SwrveContentStarRatingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveContentStarRatingView.h; path = SwrveConversationSDK/Conversation/SwrveContentStarRatingView.h; sourceTree = "<group>"; };
+		3006672B6E0D6C642E389EBC77D4DD24 /* SwrveIAPRewards.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveIAPRewards.m; path = SwrveSDK/SDK/SwrveIAPRewards.m; sourceTree = "<group>"; };
+		307793642E3C355353F1B7E530C1C421 /* SwrveUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveUtils.h; path = SwrveSDK/SDK/SwrveUtils.h; sourceTree = "<group>"; };
+		3234724B3226037E7AFF93CB78453629 /* Pods-Shaw + Scott Swrve V2-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Shaw + Scott Swrve V2-acknowledgements.markdown"; sourceTree = "<group>"; };
+		32891722BBDE694680B56EB005482498 /* SwrveMigrationsManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveMigrationsManager.m; path = SwrveSDK/SDK/SwrveMigrationsManager.m; sourceTree = "<group>"; };
+		378030DDAE7670A9881CCAE156216F4F /* SwrveSDKCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwrveSDKCommon.framework; path = SwrveSDKCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		387B898D5AC3316FA2BEE85116AC9761 /* SwrveConversationResource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveConversationResource.h; path = SwrveConversationSDK/Conversation/SwrveConversationResource.h; sourceTree = "<group>"; };
+		3BF807844DB76E09BD45DDFC1A88F4F3 /* SwrveContentHTML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveContentHTML.h; path = SwrveConversationSDK/Conversation/SwrveContentHTML.h; sourceTree = "<group>"; };
+		3C7AF6FA8315424750280FD716D2ED16 /* SwrveContentSpacer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveContentSpacer.m; path = SwrveConversationSDK/Conversation/SwrveContentSpacer.m; sourceTree = "<group>"; };
+		3CEEE4D8235767E62778226BE23AED10 /* SwrveReceiptProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveReceiptProvider.h; path = SwrveSDK/SDK/SwrveReceiptProvider.h; sourceTree = "<group>"; };
+		3D740FE6ED7D71CF2DA3AF3EC8C6331E /* SwrveSignatureProtectedFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveSignatureProtectedFile.h; path = SwrveSDKCommon/Common/SwrveSignatureProtectedFile.h; sourceTree = "<group>"; };
+		3DAC958549331707D747FD4858BFBC6B /* Pods-Shaw + Scott Swrve V2-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Shaw + Scott Swrve V2-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E3C2A648B3A7FA4FCD2BCEC70244EEB /* Swrve+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Swrve+Private.h"; path = "SwrveSDK/SDK/Swrve+Private.h"; sourceTree = "<group>"; };
+		40C151759B5E51D173F1F0C4C8E3E4A0 /* SwrveConversation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveConversation.h; path = SwrveSDK/SDK/Conversation/SwrveConversation.h; sourceTree = "<group>"; };
+		40CCDF1E6C6B0C1C6315648D6A8D3AA9 /* SwrveMigrationsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveMigrationsManager.h; path = SwrveSDK/SDK/SwrveMigrationsManager.h; sourceTree = "<group>"; };
+		42FE564594D057ECE1DC76607826B464 /* SwrveSwizzleHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveSwizzleHelper.h; path = SwrveSDKCommon/Common/Push/SwrveSwizzleHelper.h; sourceTree = "<group>"; };
+		43B60DE8C884BADDA103DC916A29BA35 /* Pods-Shaw + Scott Swrve V2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shaw + Scott Swrve V2.debug.xcconfig"; sourceTree = "<group>"; };
+		448A88AF9494C1B94267972F23AE5997 /* Pods-Shaw + Scott Swrve V2-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shaw + Scott Swrve V2-frameworks.sh"; sourceTree = "<group>"; };
+		44A4F644A80D489AAB2E4E9A8B20D2B7 /* SwrveConversationResourceManagement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveConversationResourceManagement.m; path = SwrveConversationSDK/Conversation/SwrveConversationResourceManagement.m; sourceTree = "<group>"; };
+		44F323A457736E4C1FF541546B7CFF38 /* SwrveConversationStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveConversationStyler.h; path = SwrveConversationSDK/Conversation/SwrveConversationStyler.h; sourceTree = "<group>"; };
+		464C6868BBCD294337337D6CF3AA8862 /* Swrve.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Swrve.h; path = SwrveSDK/SDK/Swrve.h; sourceTree = "<group>"; };
+		46660C4BD6CF488B43E4BCF641AD670C /* SwrveConversationContainerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveConversationContainerViewController.h; path = SwrveConversationSDK/Conversation/SwrveConversationContainerViewController.h; sourceTree = "<group>"; };
+		467341772BAA6162220CE875A1BFF3B7 /* SwrveTrigger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveTrigger.m; path = SwrveSDK/SDK/Messaging/SwrveTrigger.m; sourceTree = "<group>"; };
+		479512C9FA56509BCB6E7C0F84D05645 /* SwrveUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveUtils.m; path = SwrveSDK/SDK/SwrveUtils.m; sourceTree = "<group>"; };
+		480ABCA6711BAD333C1C127BB09B9397 /* SwrveCommonConnectionDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveCommonConnectionDelegate.m; path = SwrveSDKCommon/Common/SwrveCommonConnectionDelegate.m; sourceTree = "<group>"; };
+		486C0E9AE9685690C61A4C431653672D /* SwrveCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveCommon.h; path = SwrveSDKCommon/Common/SwrveCommon.h; sourceTree = "<group>"; };
+		4AE7F0EA6B76082BDB47BF868C14865A /* SwrveResourceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveResourceManager.h; path = SwrveSDK/SDK/SwrveResourceManager.h; sourceTree = "<group>"; };
+		4B8DD97B8533D196DAF43698E27919BA /* SwrveQAUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveQAUser.h; path = SwrveSDK/SDK/Messaging/SwrveQAUser.h; sourceTree = "<group>"; };
+		4D5DB0C2C1D15617D862C3EB8C18FD96 /* SwrveInputItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveInputItem.h; path = SwrveConversationSDK/Conversation/SwrveInputItem.h; sourceTree = "<group>"; };
+		4DF46A103C47EA1868D8E6D3CEC908EA /* Pods-Shaw + Scott Swrve V2-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shaw + Scott Swrve V2-resources.sh"; sourceTree = "<group>"; };
+		4E9AE9EB183477768CA52C9CD07B38B9 /* SwrveSetup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveSetup.h; path = SwrveConversationSDK/Conversation/SwrveSetup.h; sourceTree = "<group>"; };
+		4F1B4471BAD382F590F0C56521B0EA9C /* SwrveSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwrveSDK.modulemap; sourceTree = "<group>"; };
+		4F52D7044F1C4F6E92788D4C47316D86 /* SwrveConversationPane.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveConversationPane.h; path = SwrveConversationSDK/Conversation/SwrveConversationPane.h; sourceTree = "<group>"; };
+		4FA9A5B53285475AC192E5D701C2E9F5 /* Pods_Shaw___Scott_Swrve_V2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Shaw___Scott_Swrve_V2.framework; path = "Pods-Shaw + Scott Swrve V2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51F9E700C689306CE478B0A759027566 /* SwrveConversationResource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveConversationResource.m; path = SwrveConversationSDK/Conversation/SwrveConversationResource.m; sourceTree = "<group>"; };
+		529E895C9B279CC6AE4673F2512E10EA /* SwrveConversationSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwrveConversationSDK-umbrella.h"; sourceTree = "<group>"; };
+		540BBECFE74904E9D4C6D31DD4B2A13F /* SwrveConversationEvents.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveConversationEvents.m; path = SwrveConversationSDK/Conversation/SwrveConversationEvents.m; sourceTree = "<group>"; };
+		555AC44EC991F6A6F72C0463970ADF46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		55DDDE66DE37C3530E54E5F670873F4E /* ISHPermissionRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISHPermissionRequest.h; path = SwrveSDKCommon/Common/Permissions/ISHPermissionRequest.h; sourceTree = "<group>"; };
+		58BB8EC9FE29D78D1AB8765BB5EC48AE /* SwrveInputMultiValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveInputMultiValue.h; path = SwrveConversationSDK/Conversation/SwrveInputMultiValue.h; sourceTree = "<group>"; };
+		59380F30B7674E385CF40E2EC7FB4F0B /* SwrveDeeplinkManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveDeeplinkManager.h; path = SwrveSDK/SDK/SwrveDeeplinkManager.h; sourceTree = "<group>"; };
+		5C3A8210A2BE046351263565989F37D0 /* SwrveEventsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveEventsManager.h; path = SwrveSDK/SDK/SwrveEventsManager.h; sourceTree = "<group>"; };
+		5C6A3FED070664328C2EBC97DB0F956B /* SwrveContentHTML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveContentHTML.m; path = SwrveConversationSDK/Conversation/SwrveContentHTML.m; sourceTree = "<group>"; };
+		5C9CFE51C14BAE813ACF23CE86C09AE9 /* Swrve.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Swrve.m; path = SwrveSDK/SDK/Swrve.m; sourceTree = "<group>"; };
+		5EA36BF68A4B230F92DA1F2DBE5C8C87 /* SwrvePushConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrvePushConstants.h; path = SwrveSDKCommon/Common/Push/SwrvePushConstants.h; sourceTree = "<group>"; };
+		5F51AF1739B94907DC175F66BEAF0D7A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		5F8EEB7B609AC3D96E3983FE799DBB7D /* SwrveConversationItemViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveConversationItemViewController.h; path = SwrveConversationSDK/Conversation/SwrveConversationItemViewController.h; sourceTree = "<group>"; };
+		610FD50D4471DC54DA66CE36D6F40F93 /* SwrveConversationButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveConversationButton.m; path = SwrveConversationSDK/Conversation/SwrveConversationButton.m; sourceTree = "<group>"; };
+		635D373B1DB421BDD9B7E1AB19BB0ED1 /* SwrvePushMediaHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrvePushMediaHelper.h; path = SwrveSDKCommon/Common/Push/SwrvePushMediaHelper.h; sourceTree = "<group>"; };
+		652C8C8913B3A85469717E29FB2AB35F /* SwrvePushConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrvePushConstants.m; path = SwrveSDKCommon/Common/Push/SwrvePushConstants.m; sourceTree = "<group>"; };
+		68079237E67E3D4C6018A07F9333E852 /* SwrveContentSpacer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveContentSpacer.h; path = SwrveConversationSDK/Conversation/SwrveContentSpacer.h; sourceTree = "<group>"; };
+		685C5F803C48E2274CBB67CDEBB0F5FD /* Pods-Shaw + Scott Swrve V2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shaw + Scott Swrve V2.release.xcconfig"; sourceTree = "<group>"; };
+		68B2E3C213115078BE2734E71ECAC893 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		69ADF91765A8E47A8F66D22948B48324 /* SwrveSDKCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwrveSDKCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D335448C11BF79E6FA8C9050C51C834 /* SwrveEmpty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveEmpty.h; path = SwrveSDK/SDK/SwrveEmpty.h; sourceTree = "<group>"; };
+		71047F2181526D69B198E7E30E4721DF /* SwrveCampaign.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveCampaign.h; path = SwrveSDK/SDK/Messaging/SwrveCampaign.h; sourceTree = "<group>"; };
+		723ABAF95E289CD02834E8A0B8BCFE11 /* SwrveMessageController+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwrveMessageController+Private.h"; path = "SwrveSDK/SDK/Messaging/SwrveMessageController+Private.h"; sourceTree = "<group>"; };
+		72F63C300C1818FF96612282162F7F3D /* VGConversationKitResources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "VGConversationKitResources-Info.plist"; path = "SwrveConversationSDK/Resources/VGConversationKitResources-Info.plist"; sourceTree = "<group>"; };
+		73426DFAD3E52DC7013B370D33E78429 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
+		7358C58DB4288640D4307EEA915A0D38 /* SwrveSignatureProtectedFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveSignatureProtectedFile.m; path = SwrveSDKCommon/Common/SwrveSignatureProtectedFile.m; sourceTree = "<group>"; };
+		75BF764B1575900929BAB62998A315AA /* SwrveContentStarRating.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveContentStarRating.m; path = SwrveConversationSDK/Conversation/SwrveContentStarRating.m; sourceTree = "<group>"; };
+		775EB41D62BA0259E538A9BB223E4A25 /* SwrveInputMultiValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveInputMultiValue.m; path = SwrveConversationSDK/Conversation/SwrveInputMultiValue.m; sourceTree = "<group>"; };
+		7882D124F8E7B66E553559D84F20EEC2 /* SwrveConversationStyler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveConversationStyler.m; path = SwrveConversationSDK/Conversation/SwrveConversationStyler.m; sourceTree = "<group>"; };
+		7B4B9F60427DD66CB2D650724149E151 /* SwrveSDKCommon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwrveSDKCommon.xcconfig; sourceTree = "<group>"; };
+		7B9BA864E7C8584E9C0E82C7AAB21A95 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		7CD38070FBE9AF1A938D7F89452EEF5D /* SwrvePush.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrvePush.m; path = SwrveSDKCommon/Common/Push/SwrvePush.m; sourceTree = "<group>"; };
+		7E9C668154801FD8B8C9F78281707E6C /* SwrveQA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveQA.h; path = SwrveSDKCommon/Common/SwrveQA.h; sourceTree = "<group>"; };
+		832693A43AD829CAD7BE86D1DACF143D /* SwrveDeeplinkManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveDeeplinkManager.m; path = SwrveSDK/SDK/SwrveDeeplinkManager.m; sourceTree = "<group>"; };
+		83E9BFBAC79DBCBE67C9EB0B3F55EB9C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		8527C26E91D057C606115DDE238E41C1 /* UIWebView+YouTubeVimeo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+YouTubeVimeo.h"; path = "SwrveConversationSDK/Conversation/Categories/UIWebView+YouTubeVimeo.h"; sourceTree = "<group>"; };
+		853AECBC05B25815D30C61B62C29D02B /* SwrveSDKCommon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwrveSDKCommon-dummy.m"; sourceTree = "<group>"; };
+		858850F15EC0FC1F1BB4FCABE808EAA4 /* SwrveConversationAtomFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveConversationAtomFactory.m; path = SwrveConversationSDK/Conversation/SwrveConversationAtomFactory.m; sourceTree = "<group>"; };
+		85E176DD4AFC9C17AFC5923473BC10FE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		86C3A35E830FCFE63BF20F901319ABA5 /* SwrveConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveConfig.m; path = SwrveSDK/SDK/SwrveConfig.m; sourceTree = "<group>"; };
+		8D895A3A35C83212DF866FFFA56987D1 /* Pods-Shaw + Scott Swrve V2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shaw + Scott Swrve V2-umbrella.h"; sourceTree = "<group>"; };
+		8ECB07A0AF589D5289E5CF3F5621ABCC /* SwrveInputItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveInputItem.m; path = SwrveConversationSDK/Conversation/SwrveInputItem.m; sourceTree = "<group>"; };
+		91931FA4E057A9EE698F16EB605325C1 /* UINavigationController+KeyboardResponderFix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+KeyboardResponderFix.h"; path = "SwrveConversationSDK/Conversation/Categories/UINavigationController+KeyboardResponderFix.h"; sourceTree = "<group>"; };
+		919499251586F2992EE87262C4CCF917 /* SwrveQAUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveQAUser.m; path = SwrveSDK/SDK/Messaging/SwrveQAUser.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		993FFB094AD688A07BBF908DF06EFA88 /* SwrveConversationSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwrveConversationSDK.modulemap; sourceTree = "<group>"; };
+		99906209BDF9E609B905BF428C07C23A /* SwrveLocalStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveLocalStorage.m; path = SwrveSDKCommon/Common/SwrveLocalStorage.m; sourceTree = "<group>"; };
+		9990A3FC97C812257A69F233EDFD4DBA /* SwrveMessageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveMessageViewController.h; path = SwrveSDK/SDK/Messaging/SwrveMessageViewController.h; sourceTree = "<group>"; };
+		9ADF81C5DCAB675BBC039FB1A23DB11E /* SwrveLocalStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveLocalStorage.h; path = SwrveSDKCommon/Common/SwrveLocalStorage.h; sourceTree = "<group>"; };
+		9B34367687B81A1BE86C12D01E5F542C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B5288A4E2A51315B8B93BB6B693CF9F /* Pods-Shaw + Scott Swrve V2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shaw + Scott Swrve V2-dummy.m"; sourceTree = "<group>"; };
+		9C3FADD3B207013875833EB159C83ABA /* SwrveConversationAtomFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveConversationAtomFactory.h; path = SwrveConversationSDK/Conversation/SwrveConversationAtomFactory.h; sourceTree = "<group>"; };
+		9F09DABB433927AD3E6128C637BE5EC0 /* SwrvePermissions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrvePermissions.h; path = SwrveSDKCommon/Common/SwrvePermissions.h; sourceTree = "<group>"; };
+		A1F9FB53EEB466E0C237AAFB8CAF7E31 /* ISHPermissionRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISHPermissionRequest.m; path = SwrveSDKCommon/Common/Permissions/ISHPermissionRequest.m; sourceTree = "<group>"; };
+		A46A20D194F2A19280CE03C73EF1CF08 /* SwrveSDKCommon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwrveSDKCommon.modulemap; sourceTree = "<group>"; };
+		A5A853E8830607F1C082D610E8C790DA /* SwrveInterfaceOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveInterfaceOrientation.h; path = SwrveSDK/SDK/Messaging/SwrveInterfaceOrientation.h; sourceTree = "<group>"; };
+		A99A446FA1EFFA7E42D6649CC787236F /* SwrveMessageFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveMessageFormat.m; path = SwrveSDK/SDK/Messaging/SwrveMessageFormat.m; sourceTree = "<group>"; };
+		AA562B02CA26BFD35A415A8DF70C903D /* SwrveMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveMessage.m; path = SwrveSDK/SDK/Messaging/SwrveMessage.m; sourceTree = "<group>"; };
+		ACBFFC1DE78C1AE4380B2E5A1702C543 /* SwrveBaseConversation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveBaseConversation.h; path = SwrveConversationSDK/Conversation/SwrveBaseConversation.h; sourceTree = "<group>"; };
+		AD217AA39D927C0F7DCC227540C7E8ED /* SwrveImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveImage.m; path = SwrveSDK/SDK/Messaging/SwrveImage.m; sourceTree = "<group>"; };
+		AEA1ADC11855E5DA798CB0CA2289C1DA /* SwrvePush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrvePush.h; path = SwrveSDKCommon/Common/Push/SwrvePush.h; sourceTree = "<group>"; };
+		AFCE2244EB49107CC744522CB92A2B76 /* SwrveBaseConversation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveBaseConversation.m; path = SwrveConversationSDK/Conversation/SwrveBaseConversation.m; sourceTree = "<group>"; };
+		B07242D5518E19565DF1956E9E65CD84 /* SwrveTriggerCondition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveTriggerCondition.m; path = SwrveSDK/SDK/Messaging/SwrveTriggerCondition.m; sourceTree = "<group>"; };
+		B2123969ADA72973111BFFABAF587312 /* UIWebView+YouTubeVimeo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+YouTubeVimeo.m"; path = "SwrveConversationSDK/Conversation/Categories/UIWebView+YouTubeVimeo.m"; sourceTree = "<group>"; };
+		B2A2C9DE6A719603019B20B0D94BDBA0 /* SwrveProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveProtocol.h; path = SwrveSDK/SDK/SwrveProtocol.h; sourceTree = "<group>"; };
+		B378A95AB84DD11AA142035708DEED5A /* SwrveSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveSDK.m; path = SwrveSDK/SDK/SwrveSDK.m; sourceTree = "<group>"; };
+		B4190B077FFC4828ECD6D7282600485A /* SwrveButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveButton.h; path = SwrveSDK/SDK/Messaging/SwrveButton.h; sourceTree = "<group>"; };
+		B4FB42A27F47A83CB70307A96C47E2D1 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Contacts.framework; sourceTree = DEVELOPER_DIR; };
+		B5781F94B55C88561FE2D0C047E96EB7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		BA8E3F4412290C7BFC0F4435CCF034D6 /* SwrveButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveButton.m; path = SwrveSDK/SDK/Messaging/SwrveButton.m; sourceTree = "<group>"; };
+		BAA67C7C8C80F1681F0B06DABB4F97B4 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = DEVELOPER_DIR; };
+		BDE4457F742D5810F09DEF83130E14EF /* SwrveReceiptProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveReceiptProvider.m; path = SwrveSDK/SDK/SwrveReceiptProvider.m; sourceTree = "<group>"; };
+		BE050DCF11B877616DFE5066A9267411 /* SwrveProfileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveProfileManager.m; path = SwrveSDKCommon/Common/SwrveProfileManager.m; sourceTree = "<group>"; };
+		BE5F7CAF0A64E304F1E71F810C0C6543 /* SwrveContentVideo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveContentVideo.m; path = SwrveConversationSDK/Conversation/SwrveContentVideo.m; sourceTree = "<group>"; };
+		BEA4F9F731623105630AA15A54121607 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
+		C315E8130D41F941B4E4B16F3A2FCBB4 /* SwrveAssetsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveAssetsManager.h; path = SwrveSDKCommon/Common/SwrveAssetsManager.h; sourceTree = "<group>"; };
+		C33988245E4E421FC98A1F863FC9089B /* SwrveConversation.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = SwrveConversation.storyboard; path = SwrveConversationSDK/Resources/SwrveConversation.storyboard; sourceTree = "<group>"; };
+		C62D4FF1BD70684D6CD5D44AB5507989 /* SwrveTrigger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveTrigger.h; path = SwrveSDK/SDK/Messaging/SwrveTrigger.h; sourceTree = "<group>"; };
+		C65B85185E89D071B31A549A4E63FAB6 /* SwrveConversationAtom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveConversationAtom.m; path = SwrveConversationSDK/Conversation/SwrveConversationAtom.m; sourceTree = "<group>"; };
+		C859BF79889D02673AB88441E9F65E7D /* SwrveConversationSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwrveConversationSDK.xcconfig; sourceTree = "<group>"; };
+		C8DC298CE72433423513EC1032C00C80 /* SwrveConversationCampaign.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveConversationCampaign.m; path = SwrveSDK/SDK/Conversation/SwrveConversationCampaign.m; sourceTree = "<group>"; };
+		C8E9FF520A8054A621EFC03A474332D9 /* SwrveDeviceProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveDeviceProperties.h; path = SwrveSDK/SDK/SwrveDeviceProperties.h; sourceTree = "<group>"; };
+		C95D7ED991B7559F1D5A86756DF2ED5C /* SwrveConversationSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwrveConversationSDK-prefix.pch"; sourceTree = "<group>"; };
+		CA018C2214A507CCCCAEBAD538290758 /* SwrveEmpty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveEmpty.m; path = SwrveSDK/SDK/SwrveEmpty.m; sourceTree = "<group>"; };
+		CA118F84087A28FD671D0947D017D6AA /* SwrveSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwrveSDK.framework; path = SwrveSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7233D24CFE959F49F671380780EEDE /* SwrveResourceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveResourceManager.m; path = SwrveSDK/SDK/SwrveResourceManager.m; sourceTree = "<group>"; };
+		CB86DFA9ECD2DA85D54727277D34E9F8 /* SwrveConversationUIButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveConversationUIButton.m; path = SwrveConversationSDK/Conversation/SwrveConversationUIButton.m; sourceTree = "<group>"; };
+		CBBA94D0DDC74830A0533DE0887945C2 /* SwrveMessageFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveMessageFormat.h; path = SwrveSDK/SDK/Messaging/SwrveMessageFormat.h; sourceTree = "<group>"; };
+		CCA364C5F336A76E4C25198D62ED305A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CE1FC9DC0AC46557A3148744DBAF5570 /* ISHPermissionCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISHPermissionCategory.h; path = SwrveSDKCommon/Common/Permissions/ISHPermissionCategory.h; sourceTree = "<group>"; };
+		CE6E8D287BD2BB7C397E14194D154276 /* SwrveConversationItemViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveConversationItemViewController.m; path = SwrveConversationSDK/Conversation/SwrveConversationItemViewController.m; sourceTree = "<group>"; };
+		D14E0270EAFFDE0D9C78157DE02F1771 /* SwrveRESTClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveRESTClient.h; path = SwrveSDKCommon/Common/SwrveRESTClient.h; sourceTree = "<group>"; };
+		D358BD6F43EA46C8B32382B0A3C96D81 /* SwrveConversationUIButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveConversationUIButton.h; path = SwrveConversationSDK/Conversation/SwrveConversationUIButton.h; sourceTree = "<group>"; };
+		D42CF496996DB663F4958238CF34C142 /* ISHPermissionRequestLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISHPermissionRequestLocation.m; path = SwrveSDKCommon/Common/Permissions/ISHPermissionRequestLocation.m; sourceTree = "<group>"; };
+		D5BA4310D8406B60AE55FF154CA64E59 /* SwrveUITableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveUITableViewCell.h; path = SwrveConversationSDK/Conversation/SwrveUITableViewCell.h; sourceTree = "<group>"; };
+		D6F6965B132D1846240DF68011EF18C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8728F13EA3AB8434C0D177A33924356 /* SwrveConversationSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwrveConversationSDK.framework; path = SwrveConversationSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9116FECC3F31314B0441B3CC0CCAAD6 /* SwrveMessageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveMessageController.h; path = SwrveSDK/SDK/Messaging/SwrveMessageController.h; sourceTree = "<group>"; };
+		D9E634788098F00CFE6A3C4061D74FFE /* SwrveAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = SwrveAssets.xcassets; path = SwrveConversationSDK/Resources/SwrveAssets.xcassets; sourceTree = "<group>"; };
+		DBD764E43BE011D40A19E608EEB93325 /* SwrveConversationCampaign.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveConversationCampaign.h; path = SwrveSDK/SDK/Conversation/SwrveConversationCampaign.h; sourceTree = "<group>"; };
+		DD6E5D7B5A4738A7E3F10ED200A852A7 /* SwrveConversation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveConversation.m; path = SwrveSDK/SDK/Conversation/SwrveConversation.m; sourceTree = "<group>"; };
+		DFD94D34E71EF2C4CE3176EF2C9DFD74 /* SwrveMessageDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveMessageDelegate.h; path = SwrveSDK/SDK/Messaging/SwrveMessageDelegate.h; sourceTree = "<group>"; };
+		E33BD6272621C35B6C32D2D7E9B12076 /* SwrveConversationAtom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveConversationAtom.h; path = SwrveConversationSDK/Conversation/SwrveConversationAtom.h; sourceTree = "<group>"; };
+		E447D72083E24B4EC70F3880B0E0B19E /* SwrveCampaign+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwrveCampaign+Private.h"; path = "SwrveSDK/SDK/Messaging/SwrveCampaign+Private.h"; sourceTree = "<group>"; };
+		E54B6851C808F99AFDD004DE7EDF8274 /* SwrveContentItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveContentItem.h; path = SwrveConversationSDK/Conversation/SwrveContentItem.h; sourceTree = "<group>"; };
+		E641F9C149095A28D92407741AF3773E /* SwrveEventsManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveEventsManager.m; path = SwrveSDK/SDK/SwrveEventsManager.m; sourceTree = "<group>"; };
+		E8265ABF3FD4CF778B903890C2140274 /* SwrveSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwrveSDK-dummy.m"; sourceTree = "<group>"; };
+		E8B2490F5874E95D845923923B04B860 /* SwrveContentImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveContentImage.h; path = SwrveConversationSDK/Conversation/SwrveContentImage.h; sourceTree = "<group>"; };
+		E9497A4F42A336971F11900E4495B494 /* SwrveCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveCommon.m; path = SwrveSDKCommon/Common/SwrveCommon.m; sourceTree = "<group>"; };
+		E96C0B68F7C9B9EF69932D8D628D56AE /* SwrveConversationsNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveConversationsNavigationController.m; path = SwrveConversationSDK/Conversation/SwrveConversationsNavigationController.m; sourceTree = "<group>"; };
+		E9FCFDCAF44C1ECFCDACF5DD143FCBCD /* ISHPermissionRequestPhotoLibrary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISHPermissionRequestPhotoLibrary.m; path = SwrveSDKCommon/Common/Permissions/ISHPermissionRequestPhotoLibrary.m; sourceTree = "<group>"; };
+		ECEFC33E53CF1DFA412C9EF7CC4917EE /* SwrveSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwrveSDK.xcconfig; sourceTree = "<group>"; };
+		EE0A24179B24D93714A85AAE3FADC8D0 /* SwrveConversationsNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveConversationsNavigationController.h; path = SwrveConversationSDK/Conversation/SwrveConversationsNavigationController.h; sourceTree = "<group>"; };
+		EE4299C129195162CB1FBFC0C8172766 /* ISHPermissionRequestNotificationsRemote.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISHPermissionRequestNotificationsRemote.h; path = SwrveSDKCommon/Common/Permissions/ISHPermissionRequestNotificationsRemote.h; sourceTree = "<group>"; };
+		EF3A672E3A5BD46BB246FBC7965A12CE /* ISHPermissionRequestPhotoLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISHPermissionRequestPhotoLibrary.h; path = SwrveSDKCommon/Common/Permissions/ISHPermissionRequestPhotoLibrary.h; sourceTree = "<group>"; };
+		EF98D05D2C5C40AC87A1B6BD86A34A49 /* SwrveDeviceProperties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveDeviceProperties.m; path = SwrveSDK/SDK/SwrveDeviceProperties.m; sourceTree = "<group>"; };
+		F1B02CF725106F4275D0CCDB210755B4 /* SwrveConversationButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveConversationButton.h; path = SwrveConversationSDK/Conversation/SwrveConversationButton.h; sourceTree = "<group>"; };
+		F2FD2A1CCA56D6FEA7AF8838C925F62E /* SwrveProfileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveProfileManager.h; path = SwrveSDKCommon/Common/SwrveProfileManager.h; sourceTree = "<group>"; };
+		F51E40C8EC7B2CAA4CE5CD220DF9CBA1 /* SwrveSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveSDK.h; path = SwrveSDK/SDK/SwrveSDK.h; sourceTree = "<group>"; };
+		F7DE80B21083DBD835317F4527645942 /* SwrveImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveImage.h; path = SwrveSDK/SDK/Messaging/SwrveImage.h; sourceTree = "<group>"; };
+		F921E1E0924370C3AC2E7F319AE047EF /* SwrveTriggerCondition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveTriggerCondition.h; path = SwrveSDK/SDK/Messaging/SwrveTriggerCondition.h; sourceTree = "<group>"; };
+		F9B73E541E4F40164D67FCD7F2906FBA /* SwrveSwizzleHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveSwizzleHelper.m; path = SwrveSDKCommon/Common/Push/SwrveSwizzleHelper.m; sourceTree = "<group>"; };
+		F9DFED25478555FFF867E71971BB50DC /* SwrveQA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrveQA.m; path = SwrveSDKCommon/Common/SwrveQA.m; sourceTree = "<group>"; };
+		FAC736E89ACBB760F1F8D8C1FE581E09 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		FCED5287254A6C54FE286EFE34126DB1 /* SwrveSDKCommon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwrveSDKCommon-umbrella.h"; sourceTree = "<group>"; };
+		FCFC19EC2DEDD198C8B2F77A6CC1FFED /* SwrveInAppCampaign.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwrveInAppCampaign.h; path = SwrveSDK/SDK/Messaging/SwrveInAppCampaign.h; sourceTree = "<group>"; };
+		FF5DD773B46B7DDD4869F852A237A2BC /* SwrvePermissions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwrvePermissions.m; path = SwrveSDKCommon/Common/SwrvePermissions.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C2054BB3CA856DB0CC7DAD694714ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572268A3C725986771D2484432DE7DE2 /* AddressBook.framework in Frameworks */,
+				8F734B0FD9745A13A553E32DFADA3956 /* AssetsLibrary.framework in Frameworks */,
+				2CCC78A85303F0B1CC1E0BA7DE32B3C8 /* AVFoundation.framework in Frameworks */,
+				D3A0C01BFFBC55E79004E5A4C43BA75B /* CFNetwork.framework in Frameworks */,
+				97C593B5321FAC10B5C045B0D03C3DF4 /* Contacts.framework in Frameworks */,
+				D8927C3815F4ACB1F53B01F68964C46C /* CoreLocation.framework in Frameworks */,
+				C09D05E0563A9FF1951368B4F0B3566B /* CoreTelephony.framework in Frameworks */,
+				AD3A6FEE6C5933F29E54D2522E272918 /* CoreText.framework in Frameworks */,
+				7EB76B0DF2BEDEC62CB4D810F9290102 /* Foundation.framework in Frameworks */,
+				6BD51E3D17DFBF727FBC23A340A1B6BF /* MessageUI.framework in Frameworks */,
+				1021A96BC38E2AD452A8DA99EED8E10E /* Photos.framework in Frameworks */,
+				444D46D34A7525CE0757F1B565072C13 /* QuartzCore.framework in Frameworks */,
+				A7B9EC034046998DF02C0BC05CEBCBBE /* Security.framework in Frameworks */,
+				D80E51A978AC15CBFF0CC8DE92E5A618 /* StoreKit.framework in Frameworks */,
+				E32835EA2C50B1B7E56A97A43E38B0D5 /* SwrveConversationSDK.framework in Frameworks */,
+				D37C5E5476A5130C06AF6E8932C1674F /* SwrveSDKCommon.framework in Frameworks */,
+				1F2921A8FBFB13DE0E491EEF1DACA6A6 /* UIKit.framework in Frameworks */,
+				F581B5C9986E1EE92C30CDB1A7F3796F /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45141D9D46FC55423EE662D1FC11093D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99DAAE64A0AC71E23511CC152355AD5 /* Foundation.framework in Frameworks */,
+				001F46C83EDA9F21034FADC84E0EDA28 /* SwrveSDKCommon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67607876F4637DE891BD87B534E01681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1A5CA752CC43520BC5BF5DEF257AA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B360003DD0C832D2E0CF9C323635B4CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A720B29448A9CE2D6D9A87DBCD782205 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A287D5AE00D8D4861D460BE206EAFA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60B021BD3A531E27BA20D01E90A2FDA7 /* SwrveConversationSDK */,
+				F769C22447B433D5D568D9B35A6BD4E5 /* SwrveSDK */,
+				8F19FC857AE664E6A12D59156435934A /* SwrveSDKCommon */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		409A40A09CB5C7158FDA283A36390E44 /* Pods-Shaw + Scott Swrve V2 */ = {
+			isa = PBXGroup;
+			children = (
+				D6F6965B132D1846240DF68011EF18C7 /* Info.plist */,
+				10C15B3BB696567EF71E0FB3C24CC78B /* Pods-Shaw + Scott Swrve V2.modulemap */,
+				3234724B3226037E7AFF93CB78453629 /* Pods-Shaw + Scott Swrve V2-acknowledgements.markdown */,
+				3DAC958549331707D747FD4858BFBC6B /* Pods-Shaw + Scott Swrve V2-acknowledgements.plist */,
+				9B5288A4E2A51315B8B93BB6B693CF9F /* Pods-Shaw + Scott Swrve V2-dummy.m */,
+				448A88AF9494C1B94267972F23AE5997 /* Pods-Shaw + Scott Swrve V2-frameworks.sh */,
+				4DF46A103C47EA1868D8E6D3CEC908EA /* Pods-Shaw + Scott Swrve V2-resources.sh */,
+				8D895A3A35C83212DF866FFFA56987D1 /* Pods-Shaw + Scott Swrve V2-umbrella.h */,
+				43B60DE8C884BADDA103DC916A29BA35 /* Pods-Shaw + Scott Swrve V2.debug.xcconfig */,
+				685C5F803C48E2274CBB67CDEBB0F5FD /* Pods-Shaw + Scott Swrve V2.release.xcconfig */,
+			);
+			name = "Pods-Shaw + Scott Swrve V2";
+			path = "Target Support Files/Pods-Shaw + Scott Swrve V2";
+			sourceTree = "<group>";
+		};
+		464C23700A6D6DF7C4D95C45706DCFA8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B34367687B81A1BE86C12D01E5F542C /* Info.plist */,
+				993FFB094AD688A07BBF908DF06EFA88 /* SwrveConversationSDK.modulemap */,
+				C859BF79889D02673AB88441E9F65E7D /* SwrveConversationSDK.xcconfig */,
+				286F10E8D9769222155E18FA46DF622C /* SwrveConversationSDK-dummy.m */,
+				C95D7ED991B7559F1D5A86756DF2ED5C /* SwrveConversationSDK-prefix.pch */,
+				529E895C9B279CC6AE4673F2512E10EA /* SwrveConversationSDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwrveConversationSDK";
+			sourceTree = "<group>";
+		};
+		60B021BD3A531E27BA20D01E90A2FDA7 /* SwrveConversationSDK */ = {
+			isa = PBXGroup;
+			children = (
+				ACBFFC1DE78C1AE4380B2E5A1702C543 /* SwrveBaseConversation.h */,
+				AFCE2244EB49107CC744522CB92A2B76 /* SwrveBaseConversation.m */,
+				3BF807844DB76E09BD45DDFC1A88F4F3 /* SwrveContentHTML.h */,
+				5C6A3FED070664328C2EBC97DB0F956B /* SwrveContentHTML.m */,
+				E8B2490F5874E95D845923923B04B860 /* SwrveContentImage.h */,
+				0CA1FE97F4B94B08971895F2636AC456 /* SwrveContentImage.m */,
+				E54B6851C808F99AFDD004DE7EDF8274 /* SwrveContentItem.h */,
+				0970D6D9DE64E7800602B2B05436D78F /* SwrveContentItem.m */,
+				68079237E67E3D4C6018A07F9333E852 /* SwrveContentSpacer.h */,
+				3C7AF6FA8315424750280FD716D2ED16 /* SwrveContentSpacer.m */,
+				27F22D4DD2F6DAC2D0C5A17B1BF08FEC /* SwrveContentStarRating.h */,
+				75BF764B1575900929BAB62998A315AA /* SwrveContentStarRating.m */,
+				2EEE9CF5684ED46716D4A23B06BABE84 /* SwrveContentStarRatingView.h */,
+				0FD2C59B8AE06BE188AAA8E051BE9F39 /* SwrveContentStarRatingView.m */,
+				2231640BC81AEF749C6206D06EB0FADD /* SwrveContentVideo.h */,
+				BE5F7CAF0A64E304F1E71F810C0C6543 /* SwrveContentVideo.m */,
+				E33BD6272621C35B6C32D2D7E9B12076 /* SwrveConversationAtom.h */,
+				C65B85185E89D071B31A549A4E63FAB6 /* SwrveConversationAtom.m */,
+				9C3FADD3B207013875833EB159C83ABA /* SwrveConversationAtomFactory.h */,
+				858850F15EC0FC1F1BB4FCABE808EAA4 /* SwrveConversationAtomFactory.m */,
+				F1B02CF725106F4275D0CCDB210755B4 /* SwrveConversationButton.h */,
+				610FD50D4471DC54DA66CE36D6F40F93 /* SwrveConversationButton.m */,
+				46660C4BD6CF488B43E4BCF641AD670C /* SwrveConversationContainerViewController.h */,
+				23B2971CB7EDC13EE8ACF62BB7D13F1E /* SwrveConversationContainerViewController.m */,
+				08E0082583241EB806147C47A62B19E6 /* SwrveConversationEvents.h */,
+				540BBECFE74904E9D4C6D31DD4B2A13F /* SwrveConversationEvents.m */,
+				5F8EEB7B609AC3D96E3983FE799DBB7D /* SwrveConversationItemViewController.h */,
+				CE6E8D287BD2BB7C397E14194D154276 /* SwrveConversationItemViewController.m */,
+				4F52D7044F1C4F6E92788D4C47316D86 /* SwrveConversationPane.h */,
+				289406FF37643653487359E22758C5B5 /* SwrveConversationPane.m */,
+				387B898D5AC3316FA2BEE85116AC9761 /* SwrveConversationResource.h */,
+				51F9E700C689306CE478B0A759027566 /* SwrveConversationResource.m */,
+				1F7751E21A0152E51DDCDA7F8F68782F /* SwrveConversationResourceManagement.h */,
+				44A4F644A80D489AAB2E4E9A8B20D2B7 /* SwrveConversationResourceManagement.m */,
+				EE0A24179B24D93714A85AAE3FADC8D0 /* SwrveConversationsNavigationController.h */,
+				E96C0B68F7C9B9EF69932D8D628D56AE /* SwrveConversationsNavigationController.m */,
+				44F323A457736E4C1FF541546B7CFF38 /* SwrveConversationStyler.h */,
+				7882D124F8E7B66E553559D84F20EEC2 /* SwrveConversationStyler.m */,
+				D358BD6F43EA46C8B32382B0A3C96D81 /* SwrveConversationUIButton.h */,
+				CB86DFA9ECD2DA85D54727277D34E9F8 /* SwrveConversationUIButton.m */,
+				4D5DB0C2C1D15617D862C3EB8C18FD96 /* SwrveInputItem.h */,
+				8ECB07A0AF589D5289E5CF3F5621ABCC /* SwrveInputItem.m */,
+				58BB8EC9FE29D78D1AB8765BB5EC48AE /* SwrveInputMultiValue.h */,
+				775EB41D62BA0259E538A9BB223E4A25 /* SwrveInputMultiValue.m */,
+				20A6B8EBCEB921D3C5E47D0846F87D71 /* SwrveMessageEventHandler.h */,
+				4E9AE9EB183477768CA52C9CD07B38B9 /* SwrveSetup.h */,
+				D5BA4310D8406B60AE55FF154CA64E59 /* SwrveUITableViewCell.h */,
+				1A199E53941573FEC410F6B3842520C0 /* SwrveUITableViewCell.m */,
+				91931FA4E057A9EE698F16EB605325C1 /* UINavigationController+KeyboardResponderFix.h */,
+				2E759618F4A061768322088B4BC8BCC3 /* UINavigationController+KeyboardResponderFix.m */,
+				8527C26E91D057C606115DDE238E41C1 /* UIWebView+YouTubeVimeo.h */,
+				B2123969ADA72973111BFFABAF587312 /* UIWebView+YouTubeVimeo.m */,
+				CB682545EE8F0E8FE957A0C9C9B74B7B /* Resources */,
+				464C23700A6D6DF7C4D95C45706DCFA8 /* Support Files */,
+			);
+			name = SwrveConversationSDK;
+			path = SwrveConversationSDK;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E713C5BA812BBA4C052D5CABD8C382C5 /* Frameworks */,
+				1A287D5AE00D8D4861D460BE206EAFA5 /* Pods */,
+				FC22EFBCE507C43FF4943655A9AE8A27 /* Products */,
+				C151171DD4641A3F4C72B6E354EC77D9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F19FC857AE664E6A12D59156435934A /* SwrveSDKCommon */ = {
+			isa = PBXGroup;
+			children = (
+				CE1FC9DC0AC46557A3148744DBAF5570 /* ISHPermissionCategory.h */,
+				55DDDE66DE37C3530E54E5F670873F4E /* ISHPermissionRequest.h */,
+				A1F9FB53EEB466E0C237AAFB8CAF7E31 /* ISHPermissionRequest.m */,
+				02A45551C2BE409171FFF51F26BA6D00 /* ISHPermissionRequest+All.h */,
+				08CD53789C8D98BD0639E4B2D56C97AC /* ISHPermissionRequest+All.m */,
+				140FB6D8B2D979F1A0CFC5014AFAC8C8 /* ISHPermissionRequest+Private.h */,
+				082717C269FAACAF047A76D0BB564BE0 /* ISHPermissionRequestAddressBook.h */,
+				29085DFD972A0A41CDB8295BA0F3E594 /* ISHPermissionRequestAddressBook.m */,
+				2A07674DC861282A53DAE573EA222430 /* ISHPermissionRequestLocation.h */,
+				D42CF496996DB663F4958238CF34C142 /* ISHPermissionRequestLocation.m */,
+				EE4299C129195162CB1FBFC0C8172766 /* ISHPermissionRequestNotificationsRemote.h */,
+				1F1DAF0FE22BFDBA5DD9F35FA2483340 /* ISHPermissionRequestNotificationsRemote.m */,
+				274BC6B6423C812DF87DD76D6EB8A738 /* ISHPermissionRequestPhotoCamera.h */,
+				0385200BE1913DA4BEEAC13E5BF7818F /* ISHPermissionRequestPhotoCamera.m */,
+				EF3A672E3A5BD46BB246FBC7965A12CE /* ISHPermissionRequestPhotoLibrary.h */,
+				E9FCFDCAF44C1ECFCDACF5DD143FCBCD /* ISHPermissionRequestPhotoLibrary.m */,
+				C315E8130D41F941B4E4B16F3A2FCBB4 /* SwrveAssetsManager.h */,
+				2457FF9D7709C2889D92B6A348415FCD /* SwrveAssetsManager.m */,
+				486C0E9AE9685690C61A4C431653672D /* SwrveCommon.h */,
+				E9497A4F42A336971F11900E4495B494 /* SwrveCommon.m */,
+				11A3CDA049A083D4611883172A76D38C /* SwrveCommonConnectionDelegate.h */,
+				480ABCA6711BAD333C1C127BB09B9397 /* SwrveCommonConnectionDelegate.m */,
+				9ADF81C5DCAB675BBC039FB1A23DB11E /* SwrveLocalStorage.h */,
+				99906209BDF9E609B905BF428C07C23A /* SwrveLocalStorage.m */,
+				9F09DABB433927AD3E6128C637BE5EC0 /* SwrvePermissions.h */,
+				FF5DD773B46B7DDD4869F852A237A2BC /* SwrvePermissions.m */,
+				F2FD2A1CCA56D6FEA7AF8838C925F62E /* SwrveProfileManager.h */,
+				BE050DCF11B877616DFE5066A9267411 /* SwrveProfileManager.m */,
+				AEA1ADC11855E5DA798CB0CA2289C1DA /* SwrvePush.h */,
+				7CD38070FBE9AF1A938D7F89452EEF5D /* SwrvePush.m */,
+				5EA36BF68A4B230F92DA1F2DBE5C8C87 /* SwrvePushConstants.h */,
+				652C8C8913B3A85469717E29FB2AB35F /* SwrvePushConstants.m */,
+				635D373B1DB421BDD9B7E1AB19BB0ED1 /* SwrvePushMediaHelper.h */,
+				0ED785F7F12AE6D1A495E9BF307C804B /* SwrvePushMediaHelper.m */,
+				7E9C668154801FD8B8C9F78281707E6C /* SwrveQA.h */,
+				F9DFED25478555FFF867E71971BB50DC /* SwrveQA.m */,
+				D14E0270EAFFDE0D9C78157DE02F1771 /* SwrveRESTClient.h */,
+				082A82CE25735BE3690F18589FADD552 /* SwrveRESTClient.m */,
+				3D740FE6ED7D71CF2DA3AF3EC8C6331E /* SwrveSignatureProtectedFile.h */,
+				7358C58DB4288640D4307EEA915A0D38 /* SwrveSignatureProtectedFile.m */,
+				42FE564594D057ECE1DC76607826B464 /* SwrveSwizzleHelper.h */,
+				F9B73E541E4F40164D67FCD7F2906FBA /* SwrveSwizzleHelper.m */,
+				AF93679FD13A570EB13E70CE58B20A95 /* Support Files */,
+			);
+			name = SwrveSDKCommon;
+			path = SwrveSDKCommon;
+			sourceTree = "<group>";
+		};
+		9316DFB892C609873476DD1238326F32 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BEA4F9F731623105630AA15A54121607 /* AddressBook.framework */,
+				14E006DC911E3B9E80444DB7D993A8BD /* AssetsLibrary.framework */,
+				252B7D360F3557EA8F32196DBFDDD9BA /* AVFoundation.framework */,
+				7B9BA864E7C8584E9C0E82C7AAB21A95 /* CFNetwork.framework */,
+				B4FB42A27F47A83CB70307A96C47E2D1 /* Contacts.framework */,
+				85E176DD4AFC9C17AFC5923473BC10FE /* CoreLocation.framework */,
+				15E4344EA0266554CA13FE8917C3C24D /* CoreTelephony.framework */,
+				68B2E3C213115078BE2734E71ECAC893 /* CoreText.framework */,
+				555AC44EC991F6A6F72C0463970ADF46 /* Foundation.framework */,
+				B5781F94B55C88561FE2D0C047E96EB7 /* MessageUI.framework */,
+				73426DFAD3E52DC7013B370D33E78429 /* Photos.framework */,
+				5F51AF1739B94907DC175F66BEAF0D7A /* QuartzCore.framework */,
+				83E9BFBAC79DBCBE67C9EB0B3F55EB9C /* Security.framework */,
+				FAC736E89ACBB760F1F8D8C1FE581E09 /* StoreKit.framework */,
+				CCA364C5F336A76E4C25198D62ED305A /* UIKit.framework */,
+				BAA67C7C8C80F1681F0B06DABB4F97B4 /* UserNotifications.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AF93679FD13A570EB13E70CE58B20A95 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FCDFF274F6049C095BD8B2FD61D27E0 /* Info.plist */,
+				A46A20D194F2A19280CE03C73EF1CF08 /* SwrveSDKCommon.modulemap */,
+				7B4B9F60427DD66CB2D650724149E151 /* SwrveSDKCommon.xcconfig */,
+				853AECBC05B25815D30C61B62C29D02B /* SwrveSDKCommon-dummy.m */,
+				0897F064D55F13F66AFCCF80FEA07FE7 /* SwrveSDKCommon-prefix.pch */,
+				FCED5287254A6C54FE286EFE34126DB1 /* SwrveSDKCommon-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwrveSDKCommon";
+			sourceTree = "<group>";
+		};
+		C151171DD4641A3F4C72B6E354EC77D9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				409A40A09CB5C7158FDA283A36390E44 /* Pods-Shaw + Scott Swrve V2 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CB682545EE8F0E8FE957A0C9C9B74B7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D9E634788098F00CFE6A3C4061D74FFE /* SwrveAssets.xcassets */,
+				C33988245E4E421FC98A1F863FC9089B /* SwrveConversation.storyboard */,
+				72F63C300C1818FF96612282162F7F3D /* VGConversationKitResources-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E713C5BA812BBA4C052D5CABD8C382C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C9A4DB837A53E0C5151C028E5C923D9 /* SwrveConversationSDK.framework */,
+				69ADF91765A8E47A8F66D22948B48324 /* SwrveSDKCommon.framework */,
+				9316DFB892C609873476DD1238326F32 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F769C22447B433D5D568D9B35A6BD4E5 /* SwrveSDK */ = {
+			isa = PBXGroup;
+			children = (
+				464C6868BBCD294337337D6CF3AA8862 /* Swrve.h */,
+				5C9CFE51C14BAE813ACF23CE86C09AE9 /* Swrve.m */,
+				3E3C2A648B3A7FA4FCD2BCEC70244EEB /* Swrve+Private.h */,
+				B4190B077FFC4828ECD6D7282600485A /* SwrveButton.h */,
+				BA8E3F4412290C7BFC0F4435CCF034D6 /* SwrveButton.m */,
+				71047F2181526D69B198E7E30E4721DF /* SwrveCampaign.h */,
+				04555BF00DE05A21397199E13A5A9E26 /* SwrveCampaign.m */,
+				E447D72083E24B4EC70F3880B0E0B19E /* SwrveCampaign+Private.h */,
+				06427F86E59BF288023833B763D68825 /* SwrveCampaignStatus.h */,
+				11879D6A54960B3651CDFA94981F86DF /* SwrveConfig.h */,
+				86C3A35E830FCFE63BF20F901319ABA5 /* SwrveConfig.m */,
+				40C151759B5E51D173F1F0C4C8E3E4A0 /* SwrveConversation.h */,
+				DD6E5D7B5A4738A7E3F10ED200A852A7 /* SwrveConversation.m */,
+				DBD764E43BE011D40A19E608EEB93325 /* SwrveConversationCampaign.h */,
+				C8DC298CE72433423513EC1032C00C80 /* SwrveConversationCampaign.m */,
+				59380F30B7674E385CF40E2EC7FB4F0B /* SwrveDeeplinkManager.h */,
+				832693A43AD829CAD7BE86D1DACF143D /* SwrveDeeplinkManager.m */,
+				C8E9FF520A8054A621EFC03A474332D9 /* SwrveDeviceProperties.h */,
+				EF98D05D2C5C40AC87A1B6BD86A34A49 /* SwrveDeviceProperties.m */,
+				6D335448C11BF79E6FA8C9050C51C834 /* SwrveEmpty.h */,
+				CA018C2214A507CCCCAEBAD538290758 /* SwrveEmpty.m */,
+				5C3A8210A2BE046351263565989F37D0 /* SwrveEventsManager.h */,
+				E641F9C149095A28D92407741AF3773E /* SwrveEventsManager.m */,
+				2CD88077C21F41D21909B59732F53A1E /* SwrveIAPRewards.h */,
+				3006672B6E0D6C642E389EBC77D4DD24 /* SwrveIAPRewards.m */,
+				F7DE80B21083DBD835317F4527645942 /* SwrveImage.h */,
+				AD217AA39D927C0F7DCC227540C7E8ED /* SwrveImage.m */,
+				FCFC19EC2DEDD198C8B2F77A6CC1FFED /* SwrveInAppCampaign.h */,
+				0E66B7BDAF9D62313EA1119D08541A81 /* SwrveInAppCampaign.m */,
+				A5A853E8830607F1C082D610E8C790DA /* SwrveInterfaceOrientation.h */,
+				09AF19C0E479BE54DDD5D894471F7B3D /* SwrveMessage.h */,
+				AA562B02CA26BFD35A415A8DF70C903D /* SwrveMessage.m */,
+				D9116FECC3F31314B0441B3CC0CCAAD6 /* SwrveMessageController.h */,
+				290E52215FE89D87548EB4E8DABE6F00 /* SwrveMessageController.m */,
+				723ABAF95E289CD02834E8A0B8BCFE11 /* SwrveMessageController+Private.h */,
+				DFD94D34E71EF2C4CE3176EF2C9DFD74 /* SwrveMessageDelegate.h */,
+				CBBA94D0DDC74830A0533DE0887945C2 /* SwrveMessageFormat.h */,
+				A99A446FA1EFFA7E42D6649CC787236F /* SwrveMessageFormat.m */,
+				9990A3FC97C812257A69F233EDFD4DBA /* SwrveMessageViewController.h */,
+				2818449E3C6C02E277942D194E99130E /* SwrveMessageViewController.m */,
+				40CCDF1E6C6B0C1C6315648D6A8D3AA9 /* SwrveMigrationsManager.h */,
+				32891722BBDE694680B56EB005482498 /* SwrveMigrationsManager.m */,
+				B2A2C9DE6A719603019B20B0D94BDBA0 /* SwrveProtocol.h */,
+				4B8DD97B8533D196DAF43698E27919BA /* SwrveQAUser.h */,
+				919499251586F2992EE87262C4CCF917 /* SwrveQAUser.m */,
+				3CEEE4D8235767E62778226BE23AED10 /* SwrveReceiptProvider.h */,
+				BDE4457F742D5810F09DEF83130E14EF /* SwrveReceiptProvider.m */,
+				4AE7F0EA6B76082BDB47BF868C14865A /* SwrveResourceManager.h */,
+				CB7233D24CFE959F49F671380780EEDE /* SwrveResourceManager.m */,
+				F51E40C8EC7B2CAA4CE5CD220DF9CBA1 /* SwrveSDK.h */,
+				B378A95AB84DD11AA142035708DEED5A /* SwrveSDK.m */,
+				C62D4FF1BD70684D6CD5D44AB5507989 /* SwrveTrigger.h */,
+				467341772BAA6162220CE875A1BFF3B7 /* SwrveTrigger.m */,
+				F921E1E0924370C3AC2E7F319AE047EF /* SwrveTriggerCondition.h */,
+				B07242D5518E19565DF1956E9E65CD84 /* SwrveTriggerCondition.m */,
+				307793642E3C355353F1B7E530C1C421 /* SwrveUtils.h */,
+				479512C9FA56509BCB6E7C0F84D05645 /* SwrveUtils.m */,
+				F8737DD2D2F25EEE3B863975FE6D0732 /* Support Files */,
+			);
+			name = SwrveSDK;
+			path = SwrveSDK;
+			sourceTree = "<group>";
+		};
+		F8737DD2D2F25EEE3B863975FE6D0732 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0834AD8590F185AF2A9168C73E2BBA90 /* Info.plist */,
+				4F1B4471BAD382F590F0C56521B0EA9C /* SwrveSDK.modulemap */,
+				ECEFC33E53CF1DFA412C9EF7CC4917EE /* SwrveSDK.xcconfig */,
+				E8265ABF3FD4CF778B903890C2140274 /* SwrveSDK-dummy.m */,
+				055BD150D977E1FF218702F00F869CFB /* SwrveSDK-prefix.pch */,
+				1CC600A5D5AFB1CB1D618089DB06C872 /* SwrveSDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwrveSDK";
+			sourceTree = "<group>";
+		};
+		FC22EFBCE507C43FF4943655A9AE8A27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FA9A5B53285475AC192E5D701C2E9F5 /* Pods_Shaw___Scott_Swrve_V2.framework */,
+				D8728F13EA3AB8434C0D177A33924356 /* SwrveConversationSDK.framework */,
+				CA118F84087A28FD671D0947D017D6AA /* SwrveSDK.framework */,
+				378030DDAE7670A9881CCAE156216F4F /* SwrveSDKCommon.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3221F63C4983A41C73672192F6E45BDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DC65F2FEF120788C4886BD5B62D23E /* SwrveBaseConversation.h in Headers */,
+				7D043E433812E346D79CD6DF6E282784 /* SwrveContentHTML.h in Headers */,
+				A31B3D2F3A05C3DF2921E69EE40536E0 /* SwrveContentImage.h in Headers */,
+				EFED7E552506F4EF57BF2E3CDAE70D53 /* SwrveContentItem.h in Headers */,
+				48FE201973DA10CB8C2858BC2D96D190 /* SwrveContentSpacer.h in Headers */,
+				095A7452AEF01C41BEAD0A6B8314100A /* SwrveContentStarRating.h in Headers */,
+				33EB7CC2634BC509C028022C9917BB72 /* SwrveContentStarRatingView.h in Headers */,
+				8D7E0A804AEB517E76F00C26C453C9B8 /* SwrveContentVideo.h in Headers */,
+				29C410DAD4D54F1B9CAE404228F83625 /* SwrveConversationAtom.h in Headers */,
+				8CDA918E5C1E32C1F0E837E4439D90B1 /* SwrveConversationAtomFactory.h in Headers */,
+				C8E4230C1F4903B4C54555645D549B43 /* SwrveConversationButton.h in Headers */,
+				F0D9B0DE7031F2234746028CE06C98B6 /* SwrveConversationContainerViewController.h in Headers */,
+				C06B6D522C059310C6589C2F588C4C28 /* SwrveConversationEvents.h in Headers */,
+				153A468198E2D320E331C7661FEBE51A /* SwrveConversationItemViewController.h in Headers */,
+				3DBD4246BFA60EDC1C7813C84FB3C6DC /* SwrveConversationPane.h in Headers */,
+				73C317CF9C08EDEDD13F494B53DAC3D9 /* SwrveConversationResource.h in Headers */,
+				2FE98561A2F38309D69983A9347505A6 /* SwrveConversationResourceManagement.h in Headers */,
+				942EA4D8D09805E31DD8257AA910509F /* SwrveConversationSDK-umbrella.h in Headers */,
+				A8DCFF2D181583838157AA05DC923CC4 /* SwrveConversationsNavigationController.h in Headers */,
+				3D95CDAEDC7FA70D4296E05B3A9BA026 /* SwrveConversationStyler.h in Headers */,
+				F6E60693DCD78D0D8A63B2997906A1DB /* SwrveConversationUIButton.h in Headers */,
+				51B6EECF85D77B07246B1D1B45731BD4 /* SwrveInputItem.h in Headers */,
+				5C7D2151F3DD11C56FF08F5B39D8E134 /* SwrveInputMultiValue.h in Headers */,
+				2743E133A1753A8E49B4A18EF8B4AF44 /* SwrveMessageEventHandler.h in Headers */,
+				0F9FB27AE4ADB4F3B9B7D7D091297523 /* SwrveSetup.h in Headers */,
+				01E19438FFF7FE1BA85D2D0949EF2E5D /* SwrveUITableViewCell.h in Headers */,
+				1605A6045575C4DBBD35A949A8E5A4E9 /* UINavigationController+KeyboardResponderFix.h in Headers */,
+				1584FC259E95238DDEEB6A0C4D2C8200 /* UIWebView+YouTubeVimeo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE4F39AE293CFE93D09EC5503C42D57 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F594D0D2E0185E7898343B97AD4D93 /* ISHPermissionCategory.h in Headers */,
+				F81FBC3A95DD5A2DC4B79FB1C098D15D /* ISHPermissionRequest+All.h in Headers */,
+				5CFB5945C57B965BF441C4B198E486E0 /* ISHPermissionRequest+Private.h in Headers */,
+				1002695C6AB4D9D700729955F3E724C2 /* ISHPermissionRequest.h in Headers */,
+				153F913203D5E93CEB6BF619A599146D /* ISHPermissionRequestAddressBook.h in Headers */,
+				A7CB6EE74FA3FAD5C549337CDC9CE1FB /* ISHPermissionRequestLocation.h in Headers */,
+				B60E3F38750126DD30E9AA106A852339 /* ISHPermissionRequestNotificationsRemote.h in Headers */,
+				6612A911A5236543F5989C7C55029BD3 /* ISHPermissionRequestPhotoCamera.h in Headers */,
+				A7AF0C65F50C5D966DFFBA9A1AC56705 /* ISHPermissionRequestPhotoLibrary.h in Headers */,
+				53B14D5D43A4C4A0068B36669F928511 /* SwrveAssetsManager.h in Headers */,
+				1346A3011070BC887092AE5C5C5F7461 /* SwrveCommon.h in Headers */,
+				E7E1F2352573A3B295EB0AE0B761E29F /* SwrveCommonConnectionDelegate.h in Headers */,
+				21A88A04EF388D6E6D370ADBAA5FADD3 /* SwrveLocalStorage.h in Headers */,
+				FF25715C2E7941BF47A559A3007578A2 /* SwrvePermissions.h in Headers */,
+				96B6FEDCDD3717D9D07A3BA50A447599 /* SwrveProfileManager.h in Headers */,
+				9C899ACEE02BF86D01638C4AF431FFB8 /* SwrvePush.h in Headers */,
+				052B958811A8D2090190F9AB79F66E2A /* SwrvePushConstants.h in Headers */,
+				A2D5D9F92EDB1A80324048F6682A2B25 /* SwrvePushMediaHelper.h in Headers */,
+				56AF5A1AFD49C2C3717842B61FF1E3E2 /* SwrveQA.h in Headers */,
+				5FEC1B6DC18D5743C0EFE3E4426B218A /* SwrveRESTClient.h in Headers */,
+				E3C2ED547D7FAB5ECFEF0CF6E4972E8C /* SwrveSDKCommon-umbrella.h in Headers */,
+				D14E69E9B25A63E844E7F45A6A0972B3 /* SwrveSignatureProtectedFile.h in Headers */,
+				76F342897692797672A5173A27E535BC /* SwrveSwizzleHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A041E3F67B6D53DDB651A2EF393DAA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CD9DABFADCBDC8EF0AD89EC3FE92AA /* Pods-Shaw + Scott Swrve V2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA55CCF9E2D90ED7152AC7EC74BB3663 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A7BA2ADE9F90249443B2F1E440F46D /* Swrve+Private.h in Headers */,
+				17921C06ED0212C7E5FE29AD8460832E /* Swrve.h in Headers */,
+				DE3D9F22455C6480BA6B27510C0FF61A /* SwrveButton.h in Headers */,
+				C3921BD9716D39566AE961C0D2D8EE1F /* SwrveCampaign+Private.h in Headers */,
+				7F58A6F42BC958E186A898B3C41ACB49 /* SwrveCampaign.h in Headers */,
+				503C7AEBA69D19DABB44E46043E6C01B /* SwrveCampaignStatus.h in Headers */,
+				4299E192754F5FE602DF500AC8657319 /* SwrveConfig.h in Headers */,
+				D77E074A41FB25F32AD75339CE1AA879 /* SwrveConversation.h in Headers */,
+				622820A964F1E84AE4C7A2E53C4BBA94 /* SwrveConversationCampaign.h in Headers */,
+				4F9F26EAEA69B9B6824C3013ECD70B13 /* SwrveDeeplinkManager.h in Headers */,
+				C5403E54A7FB72E52E67F8FBCAC40637 /* SwrveDeviceProperties.h in Headers */,
+				8321AB8D01C804F7DE377FFBE81CFF2C /* SwrveEmpty.h in Headers */,
+				E8BBC2939DBD8582EE0B795FE2C57978 /* SwrveEventsManager.h in Headers */,
+				04C33044589208CEA2C8DDF3080B45E6 /* SwrveIAPRewards.h in Headers */,
+				E4191DF1435FFC55CA5382169CDB358D /* SwrveImage.h in Headers */,
+				1916E80823649DF62D430E1674F8D291 /* SwrveInAppCampaign.h in Headers */,
+				EB3B68012C804BAE096326E59FE95512 /* SwrveInterfaceOrientation.h in Headers */,
+				1FCB635F34161BAF1B54026F3130C51E /* SwrveMessage.h in Headers */,
+				7CEE1174F31BC69CD2BBE7A6418FA8C1 /* SwrveMessageController+Private.h in Headers */,
+				6E325164DF17BF09E563FD94D6894D94 /* SwrveMessageController.h in Headers */,
+				BADF2E819C1ECD7F48BAF48386FD11C2 /* SwrveMessageDelegate.h in Headers */,
+				86B2F72764363F1545B203F092C7049C /* SwrveMessageFormat.h in Headers */,
+				CD6141623276C99D49188A9EE7DFE269 /* SwrveMessageViewController.h in Headers */,
+				6B9952168EB302E71438A70819B6CA1E /* SwrveMigrationsManager.h in Headers */,
+				178280CC150790E9BDFD74634A4E8698 /* SwrveProtocol.h in Headers */,
+				DEC8B1E1A34EC036ECFDCECF8498071F /* SwrveQAUser.h in Headers */,
+				FEDD2CE005FDEB9376D40239EA780B8E /* SwrveReceiptProvider.h in Headers */,
+				7D10A028E2477A532CA9AFDA45081CD4 /* SwrveResourceManager.h in Headers */,
+				BA575EE079143041F5E8E1E35EF673A5 /* SwrveSDK-umbrella.h in Headers */,
+				D18B71D6DBD6227A41D45BFE1AC17656 /* SwrveSDK.h in Headers */,
+				16B7DC95E2C07C9F94ADC3A33F34E381 /* SwrveTrigger.h in Headers */,
+				0295585755F251B1C17861C738DF0D4F /* SwrveTriggerCondition.h in Headers */,
+				4720923B71C51853BB57C80163CA912F /* SwrveUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4602131E2F2953D893FD51F723938963 /* SwrveSDKCommon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D664B9124750A02DC9F80F8818BF9DC2 /* Build configuration list for PBXNativeTarget "SwrveSDKCommon" */;
+			buildPhases = (
+				F49643712CFF98CEA71B40253A415D6F /* Sources */,
+				67607876F4637DE891BD87B534E01681 /* Frameworks */,
+				AEE4F39AE293CFE93D09EC5503C42D57 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwrveSDKCommon;
+			productName = SwrveSDKCommon;
+			productReference = 378030DDAE7670A9881CCAE156216F4F /* SwrveSDKCommon.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		56C53A11D3CC99BC56C2C9F5872FC1CC /* Pods-Shaw + Scott Swrve V2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBEA0A94FDD80EFBFA2844C10B62CCD2 /* Build configuration list for PBXNativeTarget "Pods-Shaw + Scott Swrve V2" */;
+			buildPhases = (
+				B2BCB5A549ADFA924ED5339C4E86EC90 /* Sources */,
+				B360003DD0C832D2E0CF9C323635B4CD /* Frameworks */,
+				C5A041E3F67B6D53DDB651A2EF393DAA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D54B45BB6AC24B7F56BD85B43788D29 /* PBXTargetDependency */,
+				90FD3937B408D2F0965482A906B1A4F2 /* PBXTargetDependency */,
+				B5471ED1A153BF65A4C640BB9417C2CD /* PBXTargetDependency */,
+			);
+			name = "Pods-Shaw + Scott Swrve V2";
+			productName = "Pods-Shaw + Scott Swrve V2";
+			productReference = 4FA9A5B53285475AC192E5D701C2E9F5 /* Pods_Shaw___Scott_Swrve_V2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9466951F113CE03672B93DA73F473339 /* SwrveSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F2B2ECA09394CB97B2065D70DC0AE4 /* Build configuration list for PBXNativeTarget "SwrveSDK" */;
+			buildPhases = (
+				D7638813991051A22DA42DCCD38C367E /* Sources */,
+				3C2054BB3CA856DB0CC7DAD694714ACB /* Frameworks */,
+				EA55CCF9E2D90ED7152AC7EC74BB3663 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D21F30896F6DFA6077008202EB4C8FF /* PBXTargetDependency */,
+				D8D799383C5D1D100AE3ABD08F621DF0 /* PBXTargetDependency */,
+			);
+			name = SwrveSDK;
+			productName = SwrveSDK;
+			productReference = CA118F84087A28FD671D0947D017D6AA /* SwrveSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B626AB49B93947C97E7949D2798EBEB6 /* SwrveConversationSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 875F6D9FA934B6E6763303C425F4A8A1 /* Build configuration list for PBXNativeTarget "SwrveConversationSDK" */;
+			buildPhases = (
+				4205E10AAAD1B14B65036B015AB47EDD /* Sources */,
+				45141D9D46FC55423EE662D1FC11093D /* Frameworks */,
+				3221F63C4983A41C73672192F6E45BDC /* Headers */,
+				4C4F1BA43B6316ABB27965981BA1CB9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDF413AF40AD304B043FEF8B408F4DAC /* PBXTargetDependency */,
+			);
+			name = SwrveConversationSDK;
+			productName = SwrveConversationSDK;
+			productReference = D8728F13EA3AB8434C0D177A33924356 /* SwrveConversationSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FC22EFBCE507C43FF4943655A9AE8A27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56C53A11D3CC99BC56C2C9F5872FC1CC /* Pods-Shaw + Scott Swrve V2 */,
+				B626AB49B93947C97E7949D2798EBEB6 /* SwrveConversationSDK */,
+				9466951F113CE03672B93DA73F473339 /* SwrveSDK */,
+				4602131E2F2953D893FD51F723938963 /* SwrveSDKCommon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C4F1BA43B6316ABB27965981BA1CB9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04610DF266D3E24E4DA97C54D118D9CF /* SwrveAssets.xcassets in Resources */,
+				F1005659BA148326046262B3F5BDB630 /* SwrveConversation.storyboard in Resources */,
+				2C7FABE4C3963883DEFF860AE9F497F4 /* VGConversationKitResources-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4205E10AAAD1B14B65036B015AB47EDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20DB5EE10DCF712D67D7433295FA846 /* SwrveBaseConversation.m in Sources */,
+				63E748D6513E0A18119D100D98EBC877 /* SwrveContentHTML.m in Sources */,
+				8D0B847F8B84ED47E90A1EB512250748 /* SwrveContentImage.m in Sources */,
+				8A88194835678A0F10752FCDBDABFB8E /* SwrveContentItem.m in Sources */,
+				56C85943991A63DF0DFC461C502138A9 /* SwrveContentSpacer.m in Sources */,
+				DB11B5ADC3BC963322D50135AC929F15 /* SwrveContentStarRating.m in Sources */,
+				0E3070D8CEDCB9290E70C8FC4294AE7E /* SwrveContentStarRatingView.m in Sources */,
+				60B442EFF5071E899AF868AEA8B4E88A /* SwrveContentVideo.m in Sources */,
+				0E963741BA89C1B13A3A5CE4346DD41A /* SwrveConversationAtom.m in Sources */,
+				526B26A9465C7D9870237004725E8751 /* SwrveConversationAtomFactory.m in Sources */,
+				58AC69F30281AA4823AD61F933037329 /* SwrveConversationButton.m in Sources */,
+				0F986714386CC44695532C14F315C9B4 /* SwrveConversationContainerViewController.m in Sources */,
+				2E5A1185ADD16F033F382CF992CA7200 /* SwrveConversationEvents.m in Sources */,
+				7C2AEC5AC93EB0895A7177432C162246 /* SwrveConversationItemViewController.m in Sources */,
+				D5642DE10C789011222DF29B47AA9E87 /* SwrveConversationPane.m in Sources */,
+				4F6E8DEBF6F587DD8FFDC7B7DFDC366D /* SwrveConversationResource.m in Sources */,
+				E7F30F6DF27D27B414C723C71EC4B3AE /* SwrveConversationResourceManagement.m in Sources */,
+				32FD56BBBB096DC24AC12D1735613840 /* SwrveConversationSDK-dummy.m in Sources */,
+				57776D2F0BDC03EE3B9F31411BB8FDFB /* SwrveConversationsNavigationController.m in Sources */,
+				79A914FD9FE5B996978F7FF555EECF20 /* SwrveConversationStyler.m in Sources */,
+				E20FA0C13B426636F95A2E213FECF54B /* SwrveConversationUIButton.m in Sources */,
+				EA94757C97FF35050CEAF4B174C4C572 /* SwrveInputItem.m in Sources */,
+				F760111EB2CF6EE1AC9F320812520072 /* SwrveInputMultiValue.m in Sources */,
+				A579F1344D2AC11F36B19B90070C895E /* SwrveUITableViewCell.m in Sources */,
+				C9FA4B69767900A604E05CD68F6DE6C8 /* UINavigationController+KeyboardResponderFix.m in Sources */,
+				C9CF4A5943904A4ACC592F01D0878762 /* UIWebView+YouTubeVimeo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2BCB5A549ADFA924ED5339C4E86EC90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE8C2E2C4493F4F8926BDD9341D01DE /* Pods-Shaw + Scott Swrve V2-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7638813991051A22DA42DCCD38C367E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1C811DB3BA7145B19F9EEDCDDC9D4A /* Swrve.m in Sources */,
+				20A61A8928D7E6F3D1E167D0A1D63D7A /* SwrveButton.m in Sources */,
+				D7B176E37177B762330E4C5AB3C714DC /* SwrveCampaign.m in Sources */,
+				CA69D8E326EF2444A2A11F41E66A4077 /* SwrveConfig.m in Sources */,
+				39EA417E45D97BC497AD9AF5F43D22B9 /* SwrveConversation.m in Sources */,
+				2D5A6865A5663AF8C08ADC69C39DE842 /* SwrveConversationCampaign.m in Sources */,
+				47D959D2065F72DC7EA86394C8E36A51 /* SwrveDeeplinkManager.m in Sources */,
+				9A6C1A1169FB107610FF52A63A4C61CA /* SwrveDeviceProperties.m in Sources */,
+				E5E6B230BD7417F5122DB5AFEF5B2F88 /* SwrveEmpty.m in Sources */,
+				D5AF3E58529E905B0A335F507667CA70 /* SwrveEventsManager.m in Sources */,
+				4355FC94A88401DE610253EDF3133551 /* SwrveIAPRewards.m in Sources */,
+				96EB2344F74B9ACB4898962C3F9C8FC8 /* SwrveImage.m in Sources */,
+				B19B4180CDD96A2BA43E6F7D5AF0FCBE /* SwrveInAppCampaign.m in Sources */,
+				710FAD85995DA49C92EA281EC5FC0785 /* SwrveMessage.m in Sources */,
+				859AB2B3F2FE0FDC6F24336172872FDF /* SwrveMessageController.m in Sources */,
+				F324A05872A974028DB59F57076B2173 /* SwrveMessageFormat.m in Sources */,
+				DBE5AF9433E2315BC934DB282014811A /* SwrveMessageViewController.m in Sources */,
+				5E3E0F0BD5C8183628D9C425D9BE3753 /* SwrveMigrationsManager.m in Sources */,
+				CCB7A50F17DD3F166D15DA9894C14392 /* SwrveQAUser.m in Sources */,
+				0045643FA65F55228CB5AE47F9828CD3 /* SwrveReceiptProvider.m in Sources */,
+				F68A847B9C9735692DE4CD84FC03D927 /* SwrveResourceManager.m in Sources */,
+				2627A9410900C53F6A3F009F67E73AAA /* SwrveSDK-dummy.m in Sources */,
+				4CB2261DC620632C4E78999AA4BE019D /* SwrveSDK.m in Sources */,
+				BB2CF26626C7748005A35B6C98D4C604 /* SwrveTrigger.m in Sources */,
+				3C5B013E01DDE594E10C4818DBBC5657 /* SwrveTriggerCondition.m in Sources */,
+				71ED4F0D05F45FFEF53F83A5F10A38C8 /* SwrveUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49643712CFF98CEA71B40253A415D6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961A380D910D0A12226E2F1BCFD7141D /* ISHPermissionRequest+All.m in Sources */,
+				F4F8B70F1C351ABB24720C6D79839168 /* ISHPermissionRequest.m in Sources */,
+				ABF8D23DC78823544EE7DBE9BC1BE9E3 /* ISHPermissionRequestAddressBook.m in Sources */,
+				F857C52AC458EC9D59E961304FFAE992 /* ISHPermissionRequestLocation.m in Sources */,
+				DD463C62DDC1CEF9A971D4301A0D0647 /* ISHPermissionRequestNotificationsRemote.m in Sources */,
+				FBC4E60B27D6DA23B0BD4A7A7465FCF5 /* ISHPermissionRequestPhotoCamera.m in Sources */,
+				5E1E16B0895A50E4A8C74D27A3659F8E /* ISHPermissionRequestPhotoLibrary.m in Sources */,
+				168BC7BE91F7FDCB39664F36FAD851C6 /* SwrveAssetsManager.m in Sources */,
+				08A2CF1E8307EE6728E9B5ECB5F9B0CC /* SwrveCommon.m in Sources */,
+				5AFAABC6B18BAE224E54D34C7BB67671 /* SwrveCommonConnectionDelegate.m in Sources */,
+				39A5F1E1E4780156A478DA51DDA6A8B8 /* SwrveLocalStorage.m in Sources */,
+				BBD964C755DBFBD27AF254E206E3E5F6 /* SwrvePermissions.m in Sources */,
+				A1FE28F2B52FF191347DE6E5973D3DC2 /* SwrveProfileManager.m in Sources */,
+				163E78B3D20F3B30332E5CE55C0748D5 /* SwrvePush.m in Sources */,
+				11037F7E8BB61B4A614CC23E5A72FD38 /* SwrvePushConstants.m in Sources */,
+				86AD5896EF32F1FDDE8A0BD1D8B260CF /* SwrvePushMediaHelper.m in Sources */,
+				A20CC744DA2701EE4B4B4D9C95B1D885 /* SwrveQA.m in Sources */,
+				57A0122AED05625F303AA54732C3F2D3 /* SwrveRESTClient.m in Sources */,
+				D2D3601ABC6F0CFD0D49C57DD9481775 /* SwrveSDKCommon-dummy.m in Sources */,
+				1FFC8194ADE6F34639CF656D59E243FA /* SwrveSignatureProtectedFile.m in Sources */,
+				87CB3461333A19CCF565FEEA20B5EFFA /* SwrveSwizzleHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D21F30896F6DFA6077008202EB4C8FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwrveConversationSDK;
+			target = B626AB49B93947C97E7949D2798EBEB6 /* SwrveConversationSDK */;
+			targetProxy = 3034F32E642704CAFD1CD878BF125D25 /* PBXContainerItemProxy */;
+		};
+		4D54B45BB6AC24B7F56BD85B43788D29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwrveConversationSDK;
+			target = B626AB49B93947C97E7949D2798EBEB6 /* SwrveConversationSDK */;
+			targetProxy = 4ECA5C7129190383E5EAC57D0522D9BB /* PBXContainerItemProxy */;
+		};
+		90FD3937B408D2F0965482A906B1A4F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwrveSDK;
+			target = 9466951F113CE03672B93DA73F473339 /* SwrveSDK */;
+			targetProxy = 4639135F3B3AC3B85273B647B3A19D0A /* PBXContainerItemProxy */;
+		};
+		B5471ED1A153BF65A4C640BB9417C2CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwrveSDKCommon;
+			target = 4602131E2F2953D893FD51F723938963 /* SwrveSDKCommon */;
+			targetProxy = 8148DB07350D63D6EE7DE0FF07DB69F0 /* PBXContainerItemProxy */;
+		};
+		BDF413AF40AD304B043FEF8B408F4DAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwrveSDKCommon;
+			target = 4602131E2F2953D893FD51F723938963 /* SwrveSDKCommon */;
+			targetProxy = 50205517914132301CFA29BCE3BED3C7 /* PBXContainerItemProxy */;
+		};
+		D8D799383C5D1D100AE3ABD08F621DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwrveSDKCommon;
+			target = 4602131E2F2953D893FD51F723938963 /* SwrveSDKCommon */;
+			targetProxy = 78303EA15948D6DDE7A9B5EEC2A7A90F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BD6A47E80F5ECBBA8693612E50A4173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43B60DE8C884BADDA103DC916A29BA35 /* Pods-Shaw + Scott Swrve V2.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Shaw + Scott Swrve V2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Shaw + Scott Swrve V2/Pods-Shaw + Scott Swrve V2.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		357EE3B2FF5C7B7527CF9B5CEB3246B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 685C5F803C48E2274CBB67CDEBB0F5FD /* Pods-Shaw + Scott Swrve V2.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Shaw + Scott Swrve V2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Shaw + Scott Swrve V2/Pods-Shaw + Scott Swrve V2.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38216329E3A486AF6436DC8234CAA361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C859BF79889D02673AB88441E9F65E7D /* SwrveConversationSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwrveConversationSDK/SwrveConversationSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwrveConversationSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwrveConversationSDK/SwrveConversationSDK.modulemap";
+				PRODUCT_MODULE_NAME = SwrveConversationSDK;
+				PRODUCT_NAME = SwrveConversationSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4597D28BDAC5A01CF56A0A924E058BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECEFC33E53CF1DFA412C9EF7CC4917EE /* SwrveSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwrveSDK/SwrveSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwrveSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwrveSDK/SwrveSDK.modulemap";
+				PRODUCT_MODULE_NAME = SwrveSDK;
+				PRODUCT_NAME = SwrveSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4DB6763E0D18655283DC73ED1F3ADE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECEFC33E53CF1DFA412C9EF7CC4917EE /* SwrveSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwrveSDK/SwrveSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwrveSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwrveSDK/SwrveSDK.modulemap";
+				PRODUCT_MODULE_NAME = SwrveSDK;
+				PRODUCT_NAME = SwrveSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5606988F019B7D5D8B7A65DC43A2B885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B4B9F60427DD66CB2D650724149E151 /* SwrveSDKCommon.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwrveSDKCommon/SwrveSDKCommon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwrveSDKCommon/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwrveSDKCommon/SwrveSDKCommon.modulemap";
+				PRODUCT_MODULE_NAME = SwrveSDKCommon;
+				PRODUCT_NAME = SwrveSDKCommon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56E5E39C70869EEB5472A71DCBE79CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C859BF79889D02673AB88441E9F65E7D /* SwrveConversationSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwrveConversationSDK/SwrveConversationSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwrveConversationSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwrveConversationSDK/SwrveConversationSDK.modulemap";
+				PRODUCT_MODULE_NAME = SwrveConversationSDK;
+				PRODUCT_NAME = SwrveConversationSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		69E807510305436BBD86AE187A19026A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B4B9F60427DD66CB2D650724149E151 /* SwrveSDKCommon.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwrveSDKCommon/SwrveSDKCommon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwrveSDKCommon/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwrveSDKCommon/SwrveSDKCommon.modulemap";
+				PRODUCT_MODULE_NAME = SwrveSDKCommon;
+				PRODUCT_NAME = SwrveSDKCommon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		875F6D9FA934B6E6763303C425F4A8A1 /* Build configuration list for PBXNativeTarget "SwrveConversationSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56E5E39C70869EEB5472A71DCBE79CF4 /* Debug */,
+				38216329E3A486AF6436DC8234CAA361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F2B2ECA09394CB97B2065D70DC0AE4 /* Build configuration list for PBXNativeTarget "SwrveSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4597D28BDAC5A01CF56A0A924E058BB3 /* Debug */,
+				4DB6763E0D18655283DC73ED1F3ADE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBEA0A94FDD80EFBFA2844C10B62CCD2 /* Build configuration list for PBXNativeTarget "Pods-Shaw + Scott Swrve V2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BD6A47E80F5ECBBA8693612E50A4173 /* Debug */,
+				357EE3B2FF5C7B7527CF9B5CEB3246B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D664B9124750A02DC9F80F8818BF9DC2 /* Build configuration list for PBXNativeTarget "SwrveSDKCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E807510305436BBD86AE187A19026A /* Debug */,
+				5606988F019B7D5D8B7A65DC43A2B885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
