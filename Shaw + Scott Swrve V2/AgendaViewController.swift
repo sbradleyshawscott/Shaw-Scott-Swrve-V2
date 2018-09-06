@@ -23,11 +23,23 @@ class PurposeViewController: UIViewController {
     }
     
     
-    
     @IBAction func mondayAgendaButtonPressed(_ sender: Any) {
         print("Button pressed")
         self.performSegue(withIdentifier: "MondayViewSegue", sender: self)
     }
+    
+    
+    @IBAction func tuesdayAgendaButtonPressed(_ sender: Any) {
+        print("Button pressed")
+        self.performSegue(withIdentifier: "TuesdayViewSegue", sender: self)
+    }
+    
+    
+    @IBAction func wednesdayAgendaButtonPressed(_ sender: Any) {
+        print("Button pressed")
+        self.performSegue(withIdentifier: "WednesdayViewSegue", sender: self)
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

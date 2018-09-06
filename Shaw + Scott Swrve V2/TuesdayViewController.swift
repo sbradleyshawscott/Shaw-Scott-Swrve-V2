@@ -10,6 +10,10 @@ import UIKit
 
 class TuesdayViewController: UIViewController {
     
+    @IBAction func tuesdayBackButtonPressed(_ sender: Any) {
+        print("Button pressed")
+        self.performSegue(withIdentifier: "AgendaTuesdayBackSegue", sender: self)
+    }
     
     
     override func viewDidLoad() {
