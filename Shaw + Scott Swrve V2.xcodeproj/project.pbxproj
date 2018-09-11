@@ -509,6 +509,7 @@
 				ADDITIONAL_SDKS = "";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Shaw + Scott Swrve V2/Shaw + Scott Swrve V2.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZC9Q8D2UUV;
 				FRAMEWORK_SEARCH_PATHS = "${inherited}";
@@ -520,6 +521,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "sbradley.Shaw---Scott-Swrve-V2";
 				PRODUCT_NAME = ShawScott;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -533,6 +535,7 @@
 				ADDITIONAL_SDKS = "";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Shaw + Scott Swrve V2/Shaw + Scott Swrve V2.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZC9Q8D2UUV;
 				FRAMEWORK_SEARCH_PATHS = "${inherited}";
@@ -544,6 +547,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "sbradley.Shaw---Scott-Swrve-V2";
 				PRODUCT_NAME = ShawScott;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
